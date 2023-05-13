@@ -1,0 +1,17 @@
+//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与使用教程。
+
+{ "urls": [
+
+{ "url": "https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox1/菜妮丝/api.json", "name": "线路1（菜妮丝）" },
+
+{ "url": "https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox1/饭太硬/api.json", "name": "线路2（饭太硬）" },
+
+{ "url": "https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox1/肥猫/api.json", "name": "线路3（肥猫）" },
+
+{ "url": "https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox1/南风/api.json", "name": "线路4（南风）" },
+
+{ "url": "https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox1/巧儿/api.json", "name": "线路5（巧儿）" },
+
+{ "url": "https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox1/运输车/api.json", "name": "线路6（运输车）"}
+
+]}
