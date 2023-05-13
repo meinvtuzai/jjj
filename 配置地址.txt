@@ -1,0 +1,19 @@
+本地多仓地址：
+clan://localhost/tvbox1/本地仓.txt
+clan://localhost/tvbox2/本地仓.txt
+clan://localhost/tvboxqq/本地仓.txt
+
+***********************
+网络多仓地址：
+https://jihulab.com/duomv/apps/-/raw/main/1.txt
+https://jihulab.com/duomv/apps/-/raw/main/2.txt
+https://jihulab.com/duomv/apps/-/raw/main/3.txt
+
+***********************
+加密接口解密方法：浏览器输入http://ltjm.ml/mao.php?url=+加密接口即可解密，比如：
+http://ltjm.ml/mao.php?url=http://111.67.196.181/
+<<<<<<< HEAD
+再比如解密唐三的地址：在浏览器输入http://ltjm.ml/mao.php?url=https://hutool.ml/tang即可解密。
+=======
+再比如解密唐三的地址：在浏览器输入http://ltjm.ml/mao.php?url=https://hutool.ml/tang即可解密。
+>>>>>>> 5b86073 (update)
