@@ -1,0 +1,9 @@
+py_alist.py支持多网盘，兼容2.0、3.0；要apk支持py爬虫，打开本地存储权限才能用。
+添加多盘方法见py_alist添加多盘.png（用VS打开py_alist.py进行修改）
+调用方法如下：
+{"key": "py_alist","name": "🖥Alist","type": 3,"api": "py_alist","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./py/py_alist.py"},
+
+******************************
+py_bilimd（B站影视）和py_bilivd（B站影视）第8行为原来cookies，第9行为我的cookies
+innersign=0; buvid3=606BE156-AE37-AEA8-7052-9DA0B21766E776404infoc; b_nut=1663302976; i-wanna-go-back=-1; b_ut=7; b_lsid=4106252F6_18344933A90; _uuid=586AAEB7-6B88-A691-F7AC-95C27E57F53C43036infoc; buvid4=B6FF1449-4361-1C76-DEFC-4AFCA1777B7E78304-022091612-PdJr0jKE6N5TamfAEX9uACD1RXvklspbNdlcIQEFLMu0d9wS3G3sdA%3D%3D; buvid_fp=2a9b54d5e06aa54293dc7544e000552d
+_uuid=49AEF392-D1010C-38F10-F578-8CC6410D869A490498infoc; b_nut=1660244823; buvid3=B63BF93B-67EE-410A-631C-054F0329CB7422986infoc; buvid4=1E9B44AF-065D-0536-17DD-9E471DCF99C022986-022081203-NYTM3DGpvTOrMV/fM6STkQ==; nostalgia_conf=-1; rpdid=|(JuukkR|kRk0J'uYYuYkYl)~; i-wanna-go-back=-1; fingerprint=a6c8973fa1d12f7512b9dedcf87316f1; buvid_fp_plain=undefined; DedeUserID=335281100; DedeUserID__ckMd5=93cb3fe66d606da5; CURRENT_FNVAL=16; bp_video_offset_335281100=698923683211640800; b_ut=5; buvid_fp=a6c8973fa1d12f7512b9dedcf87316f1; innersign=0; b_lsid=85AD643E_18351E8D45E; SESSDATA=ff197b25,1679078571,86fcb*91; bili_jct=28b436d1fe48d24e09175c727ded7d0b; sid=pf8jx195
