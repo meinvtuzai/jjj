@@ -2,6 +2,7 @@ AV测试,#genre#
 4K Test1,http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/6190/index.m3u8
 4K Test2,http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/5014/index.m3u8
 4K Test3,http://vl05t7es.rostelekom.xyz/iptv/QAX2K7HNCDZF2N/6258/index.m3u8
+rugoutv18+,https://livevideo.infomaniak.com/streaming/livecast/rougetv/playlist.m3u8
 松视1台,mitv://generationnexxxt.com:19806/72e49275ae31449bb02e5e5267f5b11d
 松视2台,mitv://generationnexxxt.com:19806/7cdd5c5cb4504303a20c29777ab92ddb
 松视3台,mitv://generationnexxxt.com:19806/3e67c20620cd40c6afe6674920ff4cb0

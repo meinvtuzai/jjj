@@ -121,6 +121,8 @@
 {"key":"csp_XYQBiu_萌番组","name":"萌番组(XYQ)","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":0,"ext":"./XYQBiu/萌番组.json"},
 {"key":"csp_XYQBiu_酷奇MV","name":"酷奇MV(XYQ)","type":3,"api":"csp_XYQBiu","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XYQBiu/酷奇MV.json"},
 {"key":"csp_XYQBiu_分享短视频","name":"分享短视频(XYQ)","type":3,"api":"csp_XYQBiu","searchable":0,"quickSearch":0,"filterable":0,"ext":"./XYQBiu/分享短视频.json"},
+
+{"key":"海外看","name":"🍅海外看采集","type":1,"api":"http://api.haiwaikan.com/v1/vod?ac=list","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_appysv2_MX影视","name":"MX影视(小龟)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://49.235.107.145:81/api.php/app/"},
 {"key":"天堂资源","name":"天堂资源(官)","type":1,"api":"http://vipmv.cc/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"木子看剧","name":"木子看剧(官)","type":1,"api":"https://mzkj.maccms.cf/api.php/provide/vod/","searchable":1,"quickSearch":1},
