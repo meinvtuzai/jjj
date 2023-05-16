@@ -1,7 +1,22 @@
 {
+/*
+Home确定了列表页：首页的栏目可以自己设置标题名称和图片，key不用改动，是列表页的识别标志，每个栏目的顺序也可以随意排序。注意最后一个不用加,号
+zhuyejiekouo为APP内容，
+caijizhan为采集内容，
+dianshizhibo为直播内容，
+zidingyi为网页内容，
+自选网页显示在Home相应的顺序中，
+*/
+
 "Home": [
 {"key":"网页","title":"宝盒汇","pic":"https://agit.ai/guot54/ygbh/raw/branch/master/%e8%b0%83%e8%af%95%e5%8a%a9%e6%89%8b/18.jpeg"},
-{"key":"直播","title":"直播","pic":"https://agit.ai/hellocupe/test/raw/branch/master/7.png"}],
+{"key":"直播","title":"直播","pic":"https://agit.ai/hellocupe/test/raw/branch/master/7.png"},
+{"key":"历史","title":"历史","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/05.jpg"},
+{"key":"收藏","title":"收藏","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/06.jpg"},
+{"key":"推送","title":"推送","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/07.jpg"},
+{"key":"待添加","title":"待加","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/08.jpg"}
+],
+
 "zhuyejiekou": [{"name":"","url":""}],
 "caijizhan": [{"name":"","url":""}],
 "zhujiexi":[{"name":"","url":""}],

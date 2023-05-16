@@ -1,4 +1,14 @@
-{"Home": [
+{
+/*
+Home确定了列表页：首页的栏目可以自己设置标题名称和图片，key不用改动，是列表页的识别标志，每个栏目的顺序也可以随意排序。注意最后一个不用加,号
+zhuyejiekouo为APP内容，
+caijizhan为采集内容，
+dianshizhibo为直播内容，
+zidingyi为网页内容，
+自选网页显示在Home相应的顺序中，
+*/
+
+"Home": [
 {"key":"网页","title":"点播","pic":"https://pic.imgdb.cn/item/63985335b1fccdcd3656fba2.png"},
 {"key":"采集","title":"宝盒BOX科技","pic":"https://pic.imgdb.cn/item/63985335b1fccdcd3656fb90.png"},
 {"key":"直播","title":"直播","pic":"https://pic.imgdb.cn/item/63984d60b1fccdcd364c6e46.png"},
