@@ -1,4 +1,6 @@
 0.🐉  Test,#genre#
+凤凰中文,http://cntv.sbs/ipv6?id=test1
+凤凰资讯,http://cntv.sbs/ipv6?id=test2
 橙子1台,http://pull-l3-cny.douyincdn.com/live/stream-112618jkftu28080221221240hdcztv12135837529.m3u8
 橙子2台,http://pull-l3-cny.douyincdn.com/live/stream-113356tvb1523868316660llgu2172583690.m3u8
 橙子3台,http://pull-l3-cny.douyincdn.com/live/stream-112175tvb8080221221240cz12135576521.m3u8
