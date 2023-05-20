@@ -1,6 +1,10 @@
 {
 "spider":"https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar;md5;945ad30d5255359385ba59b8fb061bb7",
 "wallpaper":"http://饭太硬.ga/深色壁纸/api.php",
+"lives":[
+{"name":"fty1","type":0,"url":"./lives/fty1.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"fty2","type":0,"url":"./lives/fty2.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
+],
 
 "sites":[
 {"key":"本地","name":"本地","type":3,"api":"csp_Local","searchable":0,"changeable":0},
