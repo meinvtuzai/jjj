@@ -1,0 +1,8 @@
+更新地址：
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/webdav.json
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/duboku.json
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar
