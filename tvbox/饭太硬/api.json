@@ -1,12 +1,13 @@
 {
 "spider":"./0519fty.jar;md5;e8fe5d2c9d119879e383a85df8ffd027",
-"lives":[
-{"name":"TV1","type":0,"url":"./lives/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-{"name":"TV2","type":0,"url":"./lives/global.m3u","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-{"name":"fty1","type":0,"url":"./lives/fty1.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-{"name":"fty2","type":0,"url":"./lives/fty2.txt","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
-],
 "wallpaper":"http://饭太硬.ga/深色壁纸/api.php",
+"lives": [
+{"name":"常用1","type":0,"url":"clan://localhost/tvbox/lives/1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"常用2","type":0,"url":"clan://localhost/tvbox/lives/2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"常用3","type":0,"url":"clan://localhost/tvbox/lives/3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mtv","type":0,"url":"clan://localhost/tvbox/lives/mtv.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"world","type":0,"url":"clan://localhost/tvbox/lives/world.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
+],
 
 "sites":[
 {"key":"js豆瓣","name":"豆豆┃需本地包【影视范】公众号找本地佬","type":3,"api":"./js/drpy.min.js","ext":"./js/drpy.js","searchable":0,"quickSearch":0,"filterable":0},

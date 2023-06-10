@@ -2,28 +2,18 @@
 "spider":"./custom_spider.jar",
 "wallpaper":"http://我不是.肥猫.love:63/pic/feimao.php",
 
-//直播原来格式："lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=./live_plus.txt"]}]}],
+//直播tvbox格式："lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=./live_plus.txt"]}]}],
 "lives": [
-{"name":"测试","type":0,"url":"./lives/test.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"PY","type":0,"url":"./lives/live.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"radio","type":0,"url":"./lives/radio.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"radio2","type":0,"url":"./lives/radio.m3u8","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"global","type":0,"url":"./lives/global.m3u8","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"YouTube","type":0,"url":"./lives/youtube.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"YouTube2","type":0,"url":"./lives/yt.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"蜂蜜","type":0,"url":"./lives/fm.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"唐三","type":0,"url":"./lives/ts.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"常用1","type":0,"url":"./lives/1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"常用2","type":0,"url":"./lives/2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"常用3","type":0,"url":"./lives/3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"mtv","type":0,"url":"./lives/mtv.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"av1","type":0,"url":"./lives/av1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"av2","type":0,"url":"./lives/av2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"世界","type":0,"url":"./lives/world.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
+{"name":"常用1","type":0,"url":"clan://localhost/tvbox/lives/1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"常用2","type":0,"url":"clan://localhost/tvbox/lives/2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"常用3","type":0,"url":"clan://localhost/tvbox/lives/3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mtv","type":0,"url":"clan://localhost/tvbox/lives/mtv.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"world","type":0,"url":"clan://localhost/tvbox/lives/world.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
 ],
 
 "sites":[
-{"key": "js加密_仓库通用","name": "📡电视|直播","type": 3,"api": "./lives/直播转点播.js","ext": "./lives/直播仓库.json"},
+{"key": "js加密_仓库通用","name": "📡电视|直播","type": 3,"api": "./zb/直转点.js","ext": "./zb/直播仓库.json"},
+{"key": "直播转点播","name": "YouTube","type": 3,"api": "./zb/直转点.js","ext":"./zb/list.txt"},
 {"key": "py_yixi","name": "一席讲坛","type": 3,"api": "py_yixi","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_yixi.py"},
 
 //B站

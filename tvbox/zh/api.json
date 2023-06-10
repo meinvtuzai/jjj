@@ -1,12 +1,9 @@
 {
 "spider":"./jar/Yoursmile.jar",
 "lives": [
-{"name":"AV1","type":0,"url":"./lives/av1.txt","epg": "","logo": ""},
-{"name":"AV2","type":0,"url":"./lives/av2.txt","epg": "","logo": ""},
-{"name":"AV3","type":0,"url":"./lives/av3.txt","epg": "","logo": ""},
-{"name":"AV4","type":0,"url":"./lives/av4.m3u8","epg": "","logo": ""},
-{"name":"TV","type":0,"url":"./lives/TV.txt","epg": "","logo": ""},
-{"name":"Radio","type":0,"url":"./lives/radio.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
+{"name":"av1","type":0,"url":"clan://localhost/tvbox/lives/av1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"av2","type":0,"url":"clan://localhost/tvbox/lives/av2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"av3","type":0,"url":"clan://localhost/tvbox/lives/av3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
 ],
 
 "wallpaper":"http://maoyingshi.cc/api.php",

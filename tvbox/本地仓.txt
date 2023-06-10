@@ -19,11 +19,7 @@
 
 {"url":"clan://localhost/tvbox/肥猫/api.json","name":"<9>肥猫"},
 
-{"url":"clan://localhost/tvbox/南风/api.json","name":"<10>南风"},
-
-{"url":"clan://localhost/tvbox/巧儿/api.json","name":"<11>巧儿"},
-
-{"url":"clan://localhost/tvbox/运输车/api.json","name":"<12>运输车"}
+{"url":"clan://localhost/tvbox/运输车/api.json","name":"<10>运输车"}
 
 ]
 }

@@ -2,7 +2,13 @@
 "菜妮丝https://cainisi.cf":"CMTExLjE3Mi43LjE5NA==S",//公众号：影视范，qq频道:TVBox本地包https://qun.qq.com/qqweb/qunpro/share?inviteCode=1XBvP1xJJY9，tg频道https://t.me/TVBoxlocal
 "spider":"./panda230320.jar;md5;af94cc4d3c30f6cee8b8b20e7b70a0bc",
 "wallpaper":"http://我不是.肥猫.love:63/pic/feimao.php",
-"lives":[{"name":"live","url":"./tvzb.txt","type":0,"epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","ua":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/108.0.0.0Safari/537.36"}],
+"lives": [
+{"name":"常用1","type":0,"url":"clan://localhost/tvbox/lives/1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"常用2","type":0,"url":"clan://localhost/tvbox/lives/2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"常用3","type":0,"url":"clan://localhost/tvbox/lives/3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mtv","type":0,"url":"clan://localhost/tvbox/lives/mtv.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"world","type":0,"url":"clan://localhost/tvbox/lives/world.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
+],
 
 "sites":[
 {"key":"360影视","name":"360┃官源","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/360影视.json"},
