@@ -83,6 +83,7 @@
 {"key":"drpy_js_YOKE影视","name":"影视 | YOKE影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/YOKE影视.js"},
 {"key":"drpy_js_UM电影","name":"影视 | UM电影[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/UM电影.js"},
 {"key":"drpy_js_两个BT","name":"影视 | 两个BT[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/两个BT.js"},
+{"key":"drpy_js_北川影视","name":"影视 | 北川影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/北川.js"},
 {"key":"drpy_js_时光影视","name":"影视 | 时光影视[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/时光影视.js"},
 {"key":"drpy_js_西瓜影院","name":"影视 | 西瓜影院[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/西瓜影院.js"},
 {"key":"drpy_js_奈飞中文","name":"影视 | 奈飞中文[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奈飞中文.js"},
@@ -237,8 +238,7 @@
 {"key":"盤搜索","name":"盤搜索","type":3,"api":"csp_PanSearch","searchable":1,"changeable":0},
 {"key":"找資源","name":"找資源","type":3,"api":"csp_Zhaozy","searchable":1,"changeable":0,"ext":"影視天下第一$$$test2$$$test2"},
 {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":1,"changeable":0},
-{"key":"Live","name":"影视直播","type":3,"api":"csp_Live","ext":"2000"}
-],
+{"key":"Live","name":"影视直播","type":3,"api":"csp_Live","ext":"2000"}],
 
 "doh":[
 {"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
@@ -277,7 +277,6 @@
 {"name":"看看","type":0,"url":"https://jx.m3u8.pw/?url="},
 {"name":"FreeOK","type":0,"url":"https://play.86516.tk/OKPlayer/?url="},
 {"name":"free","type":0,"url":"https://h5.freejson.xyz/player/?url="}],
-
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
 "wallpaper": "http://饭太硬.top/深色壁纸/api.php"
 //"wallpaper":"http://www.kf666888.cn/api/tvbox/img"
