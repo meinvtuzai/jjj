@@ -7,11 +7,21 @@
 {"name":"常用1","type":0,"url":"clan://localhost/tvbox/lives/1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"常用2","type":0,"url":"clan://localhost/tvbox/lives/2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"常用3","type":0,"url":"clan://localhost/tvbox/lives/3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"mtv","type":0,"url":"clan://localhost/tvbox/lives/mtv.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"Youtube","type":0,"url":"clan://localhost/tvbox/lives/youtube.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mtv1","type":0,"url":"clan://localhost/tvbox/lives/mtv1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mtv2","type":0,"url":"clan://localhost/tvbox/lives/mtv2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mv1","type":0,"url":"clan://localhost/tvbox/lives/mv1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mv2","type":0,"url":"clan://localhost/tvbox/lives/mv2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mv3","type":0,"url":"clan://localhost/tvbox/lives/mv3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mv4","type":0,"url":"clan://localhost/tvbox/lives/mv4.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mv5","type":0,"url":"clan://localhost/tvbox/lives/mv5.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"world","type":0,"url":"clan://localhost/tvbox/lives/world.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
 ],
 
 "sites":[
+{"key": "直播转点播","name": "电视直播","type": 3,"api": "clan://localhost/tvbox/lives/Mud.js","ext":"clan://localhost/tvbox/lives/list.json"},
+{"key":"aikanbot","name":"爱看机器人","type":3,"api":"clan://localhost/tvbox/lives/lf_ikanbot_min.js","searchable":1,"quickSearch":1},
+
 {"key":"本地","name":"💻本地视频","type":3,"api":"csp_Local","searchable":0,"quickSearch":0,"filterable":0,"type_flag":0},
 {"key":"csp_WoGG","name":"👽玩偶哥哥","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"filterable":1,"jar":"./ali.jar"},
 

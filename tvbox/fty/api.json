@@ -5,11 +5,21 @@
 {"name":"常用1","type":0,"url":"clan://localhost/tvbox/lives/1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"常用2","type":0,"url":"clan://localhost/tvbox/lives/2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"常用3","type":0,"url":"clan://localhost/tvbox/lives/3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"mtv","type":0,"url":"clan://localhost/tvbox/lives/mtv.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"Youtube","type":0,"url":"clan://localhost/tvbox/lives/youtube.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mtv1","type":0,"url":"clan://localhost/tvbox/lives/mtv1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mtv2","type":0,"url":"clan://localhost/tvbox/lives/mtv2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mv1","type":0,"url":"clan://localhost/tvbox/lives/mv1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mv2","type":0,"url":"clan://localhost/tvbox/lives/mv2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mv3","type":0,"url":"clan://localhost/tvbox/lives/mv3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mv4","type":0,"url":"clan://localhost/tvbox/lives/mv4.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mv5","type":0,"url":"clan://localhost/tvbox/lives/mv5.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"world","type":0,"url":"clan://localhost/tvbox/lives/world.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
 ],
 
 "sites":[
+{"key": "直播转点播","name": "电视直播","type": 3,"api": "clan://localhost/tvbox/lives/Mud.js","ext":"clan://localhost/tvbox/lives/list.json"},
+{"key":"aikanbot","name":"爱看机器人","type":3,"api":"clan://localhost/tvbox/lives/lf_ikanbot_min.js","searchable":1,"quickSearch":1},
+
 {"key":"js豆瓣","name":"🅱豆瓣┃推荐","type":3,"api":"./lib/drpy.min.js","ext":"./lib/drpy.js","searchable":0,"quickSearch":0,"filterable":0},
 {"key":"csp_Czsapp","name":"📔厂长┃直连","type":3,"api":"csp_Czsapp","playerType":2,"searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_DiDuan","name":"⏮️低端┃直连","type":3,"api":"csp_Ddrk","searchable":1,"quickSearch":1,"filterable":0},
@@ -88,6 +98,7 @@
 {"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
 {"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]},
+{"name":"海外看廣告","hosts":["haiwaikan.com"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175833,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175832,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"host":"www.test.com","rule":["playwm/?video_id="]}
 ],
 

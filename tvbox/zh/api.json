@@ -8,6 +8,8 @@
 ],
 
 "sites":[
+{"key": "直播转点播","name": "电视直播","type": 3,"api": "clan://localhost/tvbox/lives/Mud.js","ext":"clan://localhost/tvbox/lives/avlist.json"},
+
 ##custom_spider.jar蜂蜜收藏
 {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":{"drives":[{"name":"AV","server":"https://a74d291e-3b91-45a5-9ec6-9f08a9178e59.id.repl.co"}]},"jar":"./jar/custom_spider.jar"},
 {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"ext":"1","jar":"./jar/custom_spider.jar"},
