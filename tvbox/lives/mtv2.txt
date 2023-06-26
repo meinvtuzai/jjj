@@ -229,7 +229,7 @@ sheep张艺兴,https://vdse.bdstatic.com/971347deaddd6fdb5ada6e87e4722ece.mp4?au
 如果有一天我变的很有钱,https://vd3.bdstatic.com/mda-jjmfvpaqh1z11ibc/hd/mda-jjmfvpaqh1z11ibc.mp4?pd=19&vt=1
 消愁,https://vd3.bdstatic.com/mda-ifkj2zwdscwthsfj/logo/hd/mda-ifkj2zwdscwthsfj.mp4?pd=20
 
-MTV10000,#genre#
+MTV1,#genre#
 MTV1,http://em.21dtv.com/songs/60100000.mkv
 MTV2,http://em.21dtv.com/songs/60100001.mkv
 MTV3,http://em.21dtv.com/songs/60100002.mkv
@@ -5177,6 +5177,8 @@ MTV4997,http://em.21dtv.com/songs/60104996.mkv
 MTV4998,http://em.21dtv.com/songs/60104997.mkv
 MTV4999,http://em.21dtv.com/songs/60104998.mkv
 MTV5000,http://em.21dtv.com/songs/60104999.mkv
+
+MTV2,#genre#
 MTV5001,http://em.21dtv.com/songs/60105000.mkv
 MTV5002,http://em.21dtv.com/songs/60105001.mkv
 MTV5003,http://em.21dtv.com/songs/60105002.mkv
@@ -10116,7 +10118,7 @@ MTV9998,http://em.21dtv.com/songs/60109997.mkv
 MTV9999,http://em.21dtv.com/songs/60109998.mkv
 MTV10000,http://em.21dtv.com/songs/60109999.mkv
 
-MTV20000,#genre#
+MTV3,#genre#
 MTV10001,http://em.21dtv.com/songs/60110000.mkv
 MTV10002,http://em.21dtv.com/songs/60110001.mkv
 MTV10003,http://em.21dtv.com/songs/60110002.mkv
@@ -15078,6 +15080,8 @@ MTV14997,http://em.21dtv.com/songs/60114996.mkv
 MTV14998,http://em.21dtv.com/songs/60114997.mkv
 MTV14999,http://em.21dtv.com/songs/60114998.mkv
 MTV15000,http://em.21dtv.com/songs/60114999.mkv
+
+MTV4,#genre#
 MTV15001,http://em.21dtv.com/songs/60115000.mkv
 MTV15002,http://em.21dtv.com/songs/60115001.mkv
 MTV15003,http://em.21dtv.com/songs/60115002.mkv
@@ -20013,7 +20017,7 @@ MTV19998,http://em.21dtv.com/songs/60119997.mkv
 MTV19999,http://em.21dtv.com/songs/60119998.mkv
 MTV20000,http://em.21dtv.com/songs/60119999.mkv
 
-MTV30000,#genre#
+MTV5,#genre#
 MTV20001,http://em.21dtv.com/songs/60120000.mkv
 MTV20002,http://em.21dtv.com/songs/60120001.mkv
 MTV20003,http://em.21dtv.com/songs/60120002.mkv
@@ -24960,6 +24964,8 @@ MTV24997,http://em.21dtv.com/songs/60124996.mkv
 MTV24998,http://em.21dtv.com/songs/60124997.mkv
 MTV24999,http://em.21dtv.com/songs/60124998.mkv
 MTV25000,http://em.21dtv.com/songs/60124999.mkv
+
+MTV6,#genre#
 MTV25001,http://em.21dtv.com/songs/60125000.mkv
 MTV25002,http://em.21dtv.com/songs/60125001.mkv
 MTV25003,http://em.21dtv.com/songs/60125002.mkv
@@ -29915,7 +29921,7 @@ MTV29998,http://em.21dtv.com/songs/60129997.mkv
 MTV29999,http://em.21dtv.com/songs/60129998.mkv
 MTV30000,http://em.21dtv.com/songs/60129999.mkv
 
-MTV40000,#genre#
+MTV7,#genre#
 MTV30001,http://em.21dtv.com/songs/60130000.mkv
 MTV30002,http://em.21dtv.com/songs/60130001.mkv
 MTV30003,http://em.21dtv.com/songs/60130002.mkv
@@ -34795,6 +34801,8 @@ MTV34997,http://em.21dtv.com/songs/60134996.mkv
 MTV34998,http://em.21dtv.com/songs/60134997.mkv
 MTV34999,http://em.21dtv.com/songs/60134998.mkv
 MTV35000,http://em.21dtv.com/songs/60134999.mkv
+
+MTV8,#genre#
 MTV35001,http://em.21dtv.com/songs/60135000.mkv
 MTV35002,http://em.21dtv.com/songs/60135001.mkv
 MTV35003,http://em.21dtv.com/songs/60135002.mkv

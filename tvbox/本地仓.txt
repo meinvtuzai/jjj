@@ -12,8 +12,6 @@
 
 {"url":"clan://localhost/tvbox/ysc/api.json","name":"<6>运输车"},
 
-{"url":"clan://localhost/tvbox/zh/api.json","name":"<7>张宏"},
-
-{"url":"clan://localhost/tvbox/nb/api.json","name":"<8>牛逼"}
+{"url":"clan://localhost/tvbox/zh/api.json","name":"<7>张宏"}
 
 ]}

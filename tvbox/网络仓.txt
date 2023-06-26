@@ -12,8 +12,6 @@
 
 {"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/ysc/api.json","name":"<6>运输车"},
 
-{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/zh/api.json","name":"<7>张宏"},
-
-{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/nb/api.json","name":"<8>牛逼"}
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/zh/api.json","name":"<7>张宏"}
 
 ]}
