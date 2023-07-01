@@ -4,23 +4,18 @@
 
 //直播tvbox格式："lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=./live_plus.txt"]}]}],
 "lives": [
-{"name":"常用1","type":0,"url":"clan://localhost/tvbox/lives/1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"常用2","type":0,"url":"clan://localhost/tvbox/lives/2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"常用3","type":0,"url":"clan://localhost/tvbox/lives/3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"Youtube","type":0,"url":"clan://localhost/tvbox/lives/youtube.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"mtv1","type":0,"url":"clan://localhost/tvbox/lives/mtv1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"mtv2","type":0,"url":"clan://localhost/tvbox/lives/mtv2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"mv1","type":0,"url":"clan://localhost/tvbox/lives/mv1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"mv2","type":0,"url":"clan://localhost/tvbox/lives/mv2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"mv3","type":0,"url":"clan://localhost/tvbox/lives/mv3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"mv4","type":0,"url":"clan://localhost/tvbox/lives/mv4.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"mv5","type":0,"url":"clan://localhost/tvbox/lives/mv5.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"world","type":0,"url":"clan://localhost/tvbox/lives/world.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
+{"name":"常用1","type":0,"url":"clan://tvbox/lives/1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"常用2","type":0,"url":"clan://tvbox/lives/2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"常用3","type":0,"url":"clan://tvbox/lives/3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"明星MV","type":0,"url":"clan://tvbox/lives/mtv1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"mtv杂烩","type":0,"url":"clan://tvbox/lives/mtv2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"测试","type":0,"url":"clan://tvbox/lives/test.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
+{"name":"world","type":0,"url":"clan://tvbox/lives/world.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
 ],
 
 "sites":[
-{"key": "直播转点播","name": "电视直播","type": 3,"api": "clan://localhost/tvbox/lives/Mud.js","ext":"clan://localhost/tvbox/lives/list.json"},
-{"key":"aikanbot","name":"爱看机器人","type":3,"api":"clan://localhost/tvbox/lives/lf_ikanbot_min.js","searchable":1,"quickSearch":1},
+{"key": "直播转点播","name": "电视直播","type": 3,"api": "clan://tvbox/lives/Mud.js","ext":"clan://tvbox/lives/list.json"},
+{"key":"aikanbot","name":"爱看机器人","type":3,"api":"clan://tvbox/lives/lf_ikanbot_min.js","searchable":1,"quickSearch":1},
 
 {"key": "yeta099y","name": "咪咪4k","type": 1,"api": "http://xn--yeta099v.online:66/api.php/provide/vod","playUrl": "http://47.242.89.48/video/xiaoshu.php?action=config&app=analysis2&code=8ff57a4df664974eca05970c7dadfc8e&url=","searchable": 1,"quickSearch": 1},
 {"key": "py_yixi","name": "一席讲坛","type": 3,"api": "py_yixi","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_yixi.py"},

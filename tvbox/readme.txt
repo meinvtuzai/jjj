@@ -9,38 +9,8 @@ clan://localhost/tvbox/网络仓.txt
 电视测试版本：https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/leanback-python-armeabi_v7a.apk
 Android 4.1正式版本：https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-4.1.apk
 
--------APP下载链接--注释--范例--交流群--频道----------
-
-手機版 - 正式版：
-https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/mobile/mobile-java-armeabi_v7a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/mobile/mobile-python-armeabi_v7a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/mobile/mobile-java-arm64_v8a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/mobile/mobile-python-arm64_v8a.apk
-https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/TV/release/release/mobile.json
-
-電視版 - 正式版：
-Android 4.1https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-4.1.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-java-armeabi_v7a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-python-armeabi_v7a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-java-arm64_v8a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-python-arm64_v8a.apk
-https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/TV/release/release/leanback.json
-
-電視版 - 测试版：
-https://gh-proxy.com/https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/leanback-java-arm64_v8a.apk
-https://gh-proxy.com/https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/leanback-java-armeabi_v7a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/leanback-python-arm64_v8a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/leanback-python-armeabi_v7a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/leanback.json
-
-
-手機版 - 测试版：
-https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/mobile-java-arm64_v8a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/mobile-java-armeabi_v7a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/mobile-python-arm64_v8a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/mobile-python-armeabi_v7a.apk
-https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/mobile.json
-
+正式版地址：https://github.com/FongMi/TV/tree/release/release
+测试版地址：https://github.com/FongMi/TV/tree/dev/release
 
 点播栏位：
 searchable：搜索    (0：關閉、1：啟用)  
