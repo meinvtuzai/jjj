@@ -13,8 +13,11 @@
 ],
 
 "sites":[
-{"key": "直播转点播","name": "电视直播","type": 3,"api": "clan://tvbox/lives/Mud.js","ext":"clan://tvbox/lives/list.json"},
-{"key":"aikanbot","name":"爱看机器人","type":3,"api":"clan://tvbox/lives/lf_ikanbot_min.js","searchable":1,"quickSearch":1},
+//{"key": "直播转点播","name": "电视直播","type": 3,"api": "clan://tvbox/lives/Mud.js","ext":"clan://tvbox/lives/list.json"},
+//{"key":"aikanbot","name":"爱看机器人","type":3,"api":"clan://tvbox/lives/lf_ikanbot_min.js","searchable":1,"quickSearch":1},
+{"key":"lf_js_douban","name":"豆瓣|lf_douban","type":3,"searchable":0,"quickSearch":0,"filterable":1,"api":"clan://tvbox/lives/lf_douban1_min.js"},
+{"key":"lf_js_ikanbot","name":"点播|lf_ikanbot","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_ikanbot2_min.js"},
+{"key":"lf_js_live","name":"直播|lf_live2vod","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_live10_min.js","ext":"clan://tvbox/lives/list.json"},
 
 {"key":"本地","name":"本地","type":3,"api":"csp_Local","searchable":0,"changeable":0},
 {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":"./json/alist.json"},
