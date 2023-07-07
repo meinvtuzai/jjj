@@ -3443,6 +3443,24 @@ Hannah,https://v.kuaishouvod.com/m3u8/0/870/index.m3u8
 93,https://2.ddyunbo.com/20190723/emgequra/index.m3u8
 
 6.其它,#genre#
+MyCamTVAnal,http://live.mycamtv.com/anal.m3u8
+MyCamTVArabGirls,http://live.mycamtv.com/arab.m3u8
+MyCamTVAsianGirls,http://live.mycamtv.com/asian.m3u8
+MyCamTVBigAssGirls,http://live.mycamtv.com/bigass.m3u8
+MyCamTVBlondeGirls,http://live.mycamtv.com/blonde.m3u8
+MyCamTVBlowjob,http://live.mycamtv.com/blowjob.m3u8
+MyCamTVBrunetteGirls,http://live.mycamtv.com/brunette.m3u8
+MyCamTVEbonyGirls,http://live.mycamtv.com/ebony.m3u8
+MyCamTVGirlsSquirt,http://live.mycamtv.com/squirt.m3u8
+MyCamTVLatinaGirls,http://live.mycamtv.com/latina.m3u8
+MyCamTVMature,http://live.mycamtv.com/bigtits.m3u8
+MyCamTVMediumGirls,http://live.mycamtv.com/medium.m3u8
+MyCamTVMILF,http://live.mycamtv.com/milf.m3u8
+MyCamTVSkinnyGirls,http://live.mycamtv.com/skinny.m3u8
+MyCamTVTeenGirls,http://live.mycamtv.com/teen.m3u8
+MyCamTVWhiteGirls,http://live.mycamtv.com/white.m3u8
+MyCamTVYoungGirls,http://live.mycamtv.com/young.m3u8
+
 卫星直播1,http://59ec5453559f0.streamlock.net:1935/jennyforyou/jennyforyou/playlist.m3u8
 卫星直播2,http://59ec5453559f0.streamlock.net:1935/JennyLive/JennyLive/playlist.m3u8
 国产系列④,https://lbbf9.com/20191113/q8yg3wEc/index.m3u8
@@ -3471,6 +3489,7 @@ Hannah,https://v.kuaishouvod.com/m3u8/0/870/index.m3u8
 国产系列精彩篇⑧,https://lbbf9.com/20191030/qH96vgxs/index.m3u8
 国产系列精彩篇⑨,https://lbbf9.com/20191030/8wd9V1WP/index.m3u8
 国产系列精彩终极篇⑩,https://lbbf9.com/20191030/zN0vh3Gx/index.m3u8
+
 VISIT-XTV,http://stream.visit-x.tv/vxtv/live/chunklist_w1769846509.m3u8
 VISIT-XTV,http://stream.visit-x.tv/vxtv/live/playlist.m3u8
 VISIT-XTVHD,http://stream.visit-x.tv:1935/vxtv/live_720p/playlist.m3u8
@@ -3636,23 +3655,6 @@ EropulsDE,https://api.alpaca.t62a.com/hls/9108/stream0.m3u8
 MiamiTVMéxico,https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexicoROKU/playlist.m3u8
 MiamiTVJennyForYou,https://59ec5453559f0.streamlock.net/jennyforyou/jennyforyou/playlist.m3u8
 Visit-XTV,https://stream.visit-x.tv/vxtv/ngrp:live_all/playlist.m3u8
-MyCamTVAnal,http://live.mycamtv.com/anal.m3u8
-MyCamTVArabGirls,http://live.mycamtv.com/arab.m3u8
-MyCamTVAsianGirls,http://live.mycamtv.com/asian.m3u8
-MyCamTVBigAssGirls,http://live.mycamtv.com/bigass.m3u8
-MyCamTVBlondeGirls,http://live.mycamtv.com/blonde.m3u8
-MyCamTVBlowjob,http://live.mycamtv.com/blowjob.m3u8
-MyCamTVBrunetteGirls,http://live.mycamtv.com/brunette.m3u8
-MyCamTVEbonyGirls,http://live.mycamtv.com/ebony.m3u8
-MyCamTVGirlsSquirt,http://live.mycamtv.com/squirt.m3u8
-MyCamTVLatinaGirls,http://live.mycamtv.com/latina.m3u8
-MyCamTVMature,http://live.mycamtv.com/bigtits.m3u8
-MyCamTVMediumGirls,http://live.mycamtv.com/medium.m3u8
-MyCamTVMILF,http://live.mycamtv.com/milf.m3u8
-MyCamTVSkinnyGirls,http://live.mycamtv.com/skinny.m3u8
-MyCamTVTeenGirls,http://live.mycamtv.com/teen.m3u8
-MyCamTVWhiteGirls,http://live.mycamtv.com/white.m3u8
-MyCamTVYoungGirls,http://live.mycamtv.com/young.m3u8
 AdrianaLynn,http://tube.paperstreetcash.com/12mins/exxxtrasmall/exxxtrasmall_adriana_lynn_12minute.mp4
 AllisonBanks,http://tube.paperstreetcash.com/12mins/exxxtrasmall/exxxtrasmall_allison_banks_12minute.mp4
 ArianaandGabriella,http://tube.paperstreetcash.com/8mins/exxxtrasmall/exxxtrasmall_ariana_and_gabriella_8minutes.mp4
@@ -3739,8 +3741,6 @@ lena.andersone,https://d3vsw0qadh18k3.cloudfront.net/nyrm3/Lena/newsensations.17
 被男技师按摩,https://vip2.fhbf9.com/20210807/EO3KoUPb/index.m3u8
 Babestation,http://sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net/9528/9528_264_live.m3u8
 1,https://59ec5453559f0.streamlock.net/mexicotv/smil:miamitvmexicoROKU/chunklist_w1869403172_b1896000.m3u8
-
-7.rhsj520,#genre#
 东热720P04,https://video1.rhsj520.com/nyrm3/2011225/DR/n0011/index.m3u8
 东热720P05,https://video1.rhsj520.com/nyrm3/2011225/DR/n0010/index.m3u8
 东热720P06,https://video1.rhsj520.com/nyrm3/2011225/DR/n0008/index.m3u8
@@ -3749,7 +3749,7 @@ Babestation,http://sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net/
 ABP-298,http://videocdnbaidu.rhsj520.com/rbny/20180807/cgcly/ABP-298/index.m3u8
 VRTM-337,http://videocdnbaidu.rhsj520.com/rbny/20180915/zzbl/VRTM-337/index.m3u8
 
-8.redtraffic,#genre#
+7.redtraffic,#genre#
 松视1欧美版,http://live.redtraffic.xyz:80/fetish.m3u8
 松视2欧美版,http://live.redtraffic.xyz:80/interracial.m3u8
 松视3欧美版,http://live.redtraffic.xyz:80/bigtits.m3u8

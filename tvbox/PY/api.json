@@ -14,10 +14,9 @@
 ],
 
 "sites":[
-//{"key": "直播转点播","name": "电视直播","type": 3,"api": "clan://tvbox/lives/Mud.js","ext":"clan://tvbox/lives/list.json"},
-//{"key":"aikanbot","name":"爱看机器人","type":3,"api":"clan://tvbox/lives/lf_ikanbot_min.js","searchable":1,"quickSearch":1},
 {"key":"lf_js_douban","name":"豆瓣|lf_douban","type":3,"searchable":0,"quickSearch":0,"filterable":1,"api":"clan://tvbox/lives/lf_douban1_min.js"},
 {"key":"lf_js_ikanbot","name":"点播|lf_ikanbot","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_ikanbot2_min.js"},
+{"key": "lf_直播点播","name": "直播点播|路飞","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/list.json"},
 {"key":"lf_js_live","name":"直播|lf_live2vod","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_live10_min.js","ext":"clan://tvbox/lives/list.json"},
 
 {"key": "yeta099y","name": "咪咪4k","type": 1,"api": "http://xn--yeta099v.online:66/api.php/provide/vod","playUrl": "http://47.242.89.48/video/xiaoshu.php?action=config&app=analysis2&code=8ff57a4df664974eca05970c7dadfc8e&url=","searchable": 1,"quickSearch": 1},
