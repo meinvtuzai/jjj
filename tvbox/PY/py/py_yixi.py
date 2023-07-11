@@ -1,7 +1,7 @@
 #coding=utf-8
 #!/usr/bin/python
 import sys
-sys.path.append('..') 
+sys.path.append('..')
 from base.spider import Spider
 import json
 import time
@@ -48,12 +48,12 @@ class Spider(Spider):
 				"vod_name":vod['title'],
 				"vod_pic":vod['cover'],
 				"vod_remarks":vod['time']
-			})	
+			})
 		result = {
 			'list':videos
 		}
 		return result
-	def categoryContent(self,tid,pg,filter,extend):		
+	def categoryContent(self,tid,pg,filter,extend):
 		result = {}
 		url = 'https://yixi.tv/api/site/speech/?page={1}&page_size=12&category_id={0}&order_by=0&_=1'.format(tid,pg)
 		jo = self.fetch(url,headers=self.header).json()
@@ -92,7 +92,9 @@ class Spider(Spider):
 
 		vod['vod_play_from'] = '一席'
 		pList = []
-		for vUrl in jo['data']['speech']['video_url']:
+		for vUrl in sorted(jo['data']['speech']['video_url'], key=lambda x: x['type'], reverse=True):
+			if vUrl['video_url'] == '':
+				continue
 			pList.append(vUrl['type_name']+"$"+vUrl['video_url'])
 		vod['vod_play_url'] = '#'.join(pList)
 		result = {

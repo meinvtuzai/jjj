@@ -20,15 +20,14 @@
 {"key":"道长直播2点播","name":"电视 | 直播[js]","type":3,"api":"./lib/live2cms.js","ext":"./lib/live2mv_data.json"},
 //{"key":"路飞直播2点播","name":"电视 | 路飞[js]","type":3,"api":"./lib/lf_live_min.js","ext":"./lib/lf_live.json"},
 {"key":"MV_vod","name":"电视┃MTV","type":1,"api":"https://tvbox-mv--leosam2048.repl.co/mv/vod"},
-//{"key":"drpy_js_我的哔哩","name":"我的哔哩[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/我的哔哩.js"},
-{"key":"哔哩","name":"哔哩[影视专用]","type":3,"api":"csp_Bili","ext":"经典无损音乐合集#索尼音乐中国#帕梅拉#太极拳#广场舞#演唱会"},
+{"key":"drpy_js_我的哔哩","name":"我的哔哩[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/我的哔哩.js"},
+{"key":"哔哩","name":"哔哩[影视专用]","type":3,"api":"csp_Bili","ext":{"type":"抖音热歌#沙雕动漫#电影解说#经典无损音乐合集#索尼音乐中国#帕梅拉#太极拳#广场舞#演唱会","cookie":""}},
 {"key":"drpy_js_ikanbot2","name":"聚搜 | 爱看机器人[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/ikanbot2.js"},
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
-//{"key":"drpy_js_ikanbot","name":"影视 | ikanbot[js]","type":3,"api":"./js/lf_ikanbot_min.js"},
-{"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"./lib/alist.min.js","ext":"./js/alist.json"},
+{"key":"drpy_js_lf_ikanbot","name":"影视 | lf_ikanbot[js]","type":3,"api":"./js/lf_ikanbot2_4_min.js"},
 
 {"key":"drpy_xb","name":"🛫小宝影视(墙外)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/[飞]小宝影院.js"},
-{"key":"drpy_101","name":"🛫欧乐影院(墙外)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/[飞]if101.js"},
+{"key":"drpy_101","name":"🛫欧乐影院(墙外)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/[飞]欧乐影院.js"},
 {"key":"drpy_trj","name":"🛫唐人街(墙外)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/[飞]唐人街影视.js"},
 {"key":"drpy_hh","name":"🛫吼吼影视(墙外)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/[飞]吼吼.js"},
 {"key":"drpy_od","name":"🛫欧帝影视(墙外)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/[飞]欧帝影院.js"},
@@ -38,14 +37,13 @@
 {"key":"dr_htu","name":"✈️海兔影院[飞]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/[飞]海兔影院.js"},
 {"key":"dr_flin","name":"✈️枫林影院[飞]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/[飞]枫林影院.js"},
 
+{"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"./lib/alist.min.js","ext":"./js/alist.json"},
 {"key":"drpy_js_360影视","name":"官源 | 360[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/360影视.js"},
 {"key":"drpy_js_奇珍异兽","name":"官源 | 爱奇艺[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/奇珍异兽.js"},
 {"key":"drpy_js_优酷","name":"官源 | 优酷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/优酷.js"},
 {"key":"drpy_js_腾云驾雾","name":"官源 | 腾讯[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/腾云驾雾.js"},
 {"key":"drpy_js_百忙无果","name":"官源 | 芒果[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/百忙无果.js"},
 {"key":"drpy_js_菜狗","name":"官源 | 搜狗[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/菜狗.js"},
-
-{"key":"drpy_js_星影","name":"影视 | 星影[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/xx.js"},
 {"key":"drpy_js_低端","name":"影视 | 低端[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/ddys.js"},
 {"key":"drpy_js_农民","name":"影视 | 农民[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/农民影视.js"},
 {"key":"drpy_js_大豆","name":"影视 | 大豆[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/大豆.js"},
@@ -63,12 +61,14 @@
 {"key":"drpy_js_555电影[V2]","name":"影视 | 555电影[V2][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/555电影[V2].js"},
 {"key":"drpy_js_花猪影视[V2]","name":"影视 | 花猪影视[V2][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/花猪影视[V2].js"},
 {"key":"drpy_js_布雷蓝光[V2]","name":"影视 | 布雷蓝光[V2][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/布雷蓝光[V2].js"},
+{"key":"drpy_js_F7好看剧[V2]","name":"影视 | F7好看剧[V2][js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/F7好看剧[V2].js"},
 {"key":"drpy_js_网飞.TV","name":"影视 | 网飞.TV[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/网飞.TV.js"},
 {"key":"drpy_js_乐猪TV","name":"影视 | 乐猪TV[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/乐猪TV.js"},
 {"key":"drpy_js_六度TV","name":"影视 | 六度TV[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/六度TV.js"},
 {"key":"drpy_js_花猫TV","name":"影视 | 花猫TV[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/花猫TV.js"},
 {"key":"drpy_js_剧迷su","name":"影视 | 剧迷su[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/剧迷su.js"},
 {"key":"drpy_js_TV云播","name":"影视 | TV云播[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/TV云播.js"},
+{"key":"drpy_js_中国人","name":"影视 | 中国人[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/中国人.js"},
 {"key":"drpy_js_新片场","name":"影视 | 新片场[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/新片场.js"},
 {"key":"drpy_js_皮皮鸭","name":"影视 | 皮皮鸭[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/皮皮鸭.js"},
 {"key":"drpy_js_慢大浪","name":"影视 | 慢大浪[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/慢大浪.js"},
@@ -83,6 +83,7 @@
 {"key":"drpy_js_追剧迷","name":"影视 | 追剧迷[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/追剧迷.js"},
 {"key":"drpy_js_美视网","name":"影视 | 美视网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/美视网.js"},
 {"key":"drpy_js_美剧网","name":"影视 | 美剧网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/美剧网.js"},
+{"key":"drpy_js_4K电影网","name":"影视 | 4K电影网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/4K电影网.js"},
 {"key":"drpy_js_91free","name":"影视 | 91free[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/91free.js"},
 {"key":"drpy_js_gaze","name":"影视 | gaze[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/gaze.js"},
 {"key":"drpy_js_LIBVIO","name":"影视 | LIBVIO[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/LIBVIO.js"},
@@ -242,7 +243,8 @@
 {"key":"找資源","name":"找資源[fm]","type":3,"api":"csp_Zhaozy","searchable":1,"changeable":0,"ext":"影視天下第一$$$test2$$$test2"},
 {"key":"本地","name":"本地[fm]","type":3,"api":"csp_Local","searchable":0,"changeable":0},
 {"key":"push_agent","name":"推送","type":3,"api":"csp_Push","searchable":1,"changeable":0},
-{"key":"Live","name":"影视直播","type":3,"api":"csp_Live","ext":"2000"}],
+{"key":"Live","name":"影视直播","type":3,"api":"csp_Live","ext":"2000"}
+],
 
 "doh":[
 {"name":"Google","url":"https://dns.google/dns-query","ips":["8.8.4.4","8.8.8.8"]},
@@ -250,7 +252,6 @@
 {"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},
 {"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},
 {"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}],
-
 "rules":[
 {"name": "量子廣告","hosts": ["vip.lz","hd.lz"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name": "非凡廣告","hosts": ["vip.ffzy","hd.ffzy"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
@@ -291,6 +292,6 @@
 {"name":"FreeOK","type":0,"url":"https://play.86516.tk/OKPlayer/?url="},
 {"name":"free","type":0,"url":"https://h5.freejson.xyz/player/?url="}],
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu"],
-"wallpaper": "http://饭太硬.top/深色壁纸/api.php"
-//"wallpaper":"http://www.kf666888.cn/api/tvbox/img"
+"wallpaper": "http://饭太硬.top/深色壁纸/api.php",
+"wallpaper":"http://www.kf666888.cn/api/tvbox/img"
 }

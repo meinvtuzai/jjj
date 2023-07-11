@@ -3,10 +3,11 @@ clan://localhost/tvbox/网络仓.txt
 
 *********************************
 影视相关：
-手机正式版本：https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/mobile/mobile-python-arm64_v8a.apk
 手机测试版本：https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/mobile-python-arm64_v8a.apk
-电视正式版本：https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-python-armeabi_v7a.apk
 电视测试版本：https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/leanback-python-armeabi_v7a.apk
+
+手机正式版本：https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/mobile/mobile-python-arm64_v8a.apk
+电视正式版本：https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-python-armeabi_v7a.apk
 Android 4.1正式版本：https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-4.1.apk
 
 正式版地址：https://github.com/FongMi/TV/tree/release/release

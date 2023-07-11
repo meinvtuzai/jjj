@@ -19,6 +19,16 @@ zidingyi为网页内容，
 */
 ],
 
+//如果删除这个字段，则使用默认的规则
+"去广告规则":[
+{"名字":"LZ","寻找词":"vip.lz#hd.lz","正则规则": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"名字":"FF","寻找词":"vip.ffzy#hd.ffzy","正则规则":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"名字":"火山嗅探","寻找词":"huoshan.com","正则规则":["item_id="]},
+{"名字":"抖音嗅探","寻找词":"douyin.com","正则规则":["is_play_url="]},
+{"名字":"海外看","寻找词":"haiwaikan.com","正则规则":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175833,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175832,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"名字":"测试","寻找词":"www.test.com","正则规则":["playwm/?video_id="]}
+],
+
 "zhujiexi":[{"name":"","url":""}],
 "beiyongjiexi": [{"name":"","url":""}],
 "guolvdizhi": "player.css#url=#51.la#poster#api.php#file=#cnzz.com#baidu.com#.gif",

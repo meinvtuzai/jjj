@@ -21,8 +21,13 @@
 {"key":"量子","name":"量子","type":0,"api":"https://cj.lziapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["伦理片"],"jar":"./jar/custom_spider.jar"},
 {"key":"非凡","name":"非凡","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["伦理片"],"jar":"./jar/custom_spider.jar"},
 {"key":"玩偶","name":"玩偶","type":3,"api":"csp_Doll","searchable":1,"jar":"./jar/custom_spider.jar"},
-
 {"key":"MissAV","name":"MissAV","type":3,"api":"csp_Miss","searchable":1,"jar":"./jar/custom_spider.jar"},
+
+{"key":"18AV","name":"18AV","type":3,"api":"csp_Eighteen","searchable":1,"jar":"./jar/custom_spider.jar"},
+{"key":"Jable","name":"Jable","type":3,"api":"csp_Jable","searchable":1,"jar":"./jar/custom_spider.jar"},
+{"key":"Supjav","name":"Supjav","type":3,"api":"csp_Supjav","searchable":1,"jar":"./jar/custom_spider.jar"},
+{"key":"Hanime","name":"Hanime","type":3,"api":"csp_Hanime","searchable":1,"jar":"./jar/custom_spider.jar"},
+
 {"key":"jcspcj8.com","name":"成人02","type":0,"api":"http://jcspcj8.com/api?ac=videolist","searchable":1,"jar":"./jar/custom_spider.jar"},
 {"key":"bttcj.com","name":"成人03","type":0,"api":"http://bttcj.com/inc/sapi.php","searchable":1,"jar":"./jar/custom_spider.jar"},
 {"key":"cjmygzy.com","name":"成人04","type":0,"api":"http://cjmygzy.com/inc/sapi.php?ac=videolist","searchable":1,"jar":"./jar/custom_spider.jar"},
@@ -79,10 +84,6 @@
 {"key":"api.apilyzy.com","name":"成人62","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","searchable":1,"jar":"./jar/custom_spider.jar"},
 
 /*
-{"key":"18AV","name":"18AV","type":3,"api":"csp_Eighteen","searchable":1,"jar":"./jar/custom_spider.jar"},
-{"key":"Jable","name":"Jable","type":3,"api":"csp_Jable","searchable":1,"jar":"./jar/custom_spider.jar"},
-{"key":"Supjav","name":"Supjav","type":3,"api":"csp_Supjav","searchable":1,"jar":"./jar/custom_spider.jar"},
-{"key":"Hanime","name":"Hanime","type":3,"api":"csp_Hanime","searchable":1,"jar":"./jar/custom_spider.jar"},
 {"key":"51smt4.xyz","name":"成人01","type":1,"api":"http://51smt4.xyz/api.php/provide/vod/","searchable":1,"jar":"./jar/custom_spider.jar"},
 {"key":"madouse.la","name":"成人17","type":1,"api":"http://madouse.la/api.php/provide/vod/","searchable":1,"jar":"./jar/custom_spider.jar"},
 {"key":"siwazyw.cc","name":"成人32","type":1,"api":"https://siwazyw.cc/api.php/provide/vod/","searchable":1,"jar":"./jar/custom_spider.jar"},
@@ -235,11 +236,10 @@
 {"name":"懒懒","type":1,"url":"http://lanlan.ckflv.cn/?url=","ext":{"flag":["qiyi","qq","letv","sohu","youku","mgtv","bilibili","wasu","xigua","1905"]}},
 {"name":"rx2","type":1,"url":"http://rxjx.kuanjv.com/allm3u8.php?url="},
 {"name":"直解","type":1,"url":"http://rxjx.kuanjv.com/allm3u8.php?url=","ext":{"flag":["rx","ltnb","renrenmi","rongxing","bilibili","哔哩哔哩","哔哩","youku","优酷","qiyi","爱奇艺","奇艺","qq","腾讯","mgtv","芒果","sohu","搜狐","letv","乐视","xigua","CL4K","西瓜"]}},
-{"name":"智能[④]","type":1,"url":"https://json.freejx.in/?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"},"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}}],
+{"name":"智能[④]","type":1,"url":"https://json.freejx.in/?url=","ext":{"header":{"User-Agent":"okhttp/4.1.0"},"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","乐视","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"]}}
+],
 
 "flags":["imgo","youku","qq","iqiyi","qiyi","fun","letv","leshi","sohu","tudou","xigua","cntv","1905","pptv","mgtv","wasu","bilibili","renrenmi"],
-
-"hotSearch":[{"name":"mobilesearch","request":{"method":"GET","header":[{"key":"Referer","value":"https://boXPy.once678.repl.co"}],"url":{"raw":"https://boXPy.once678.repl.co/hotsugg?t={time}"}},"response":{"result":"$.data","data":[{"key":"keyword","value":"title"}]}}],"sniffer":{"userAgent":"Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/105.0.0.0Safari/537.36Edg/105.0.1343.27","isVideoFormat":"http((?!http).){26,}\\.(m3u8|mp4|flv|avi|mkv|wmv|mpg|mpeg|mov|ts|3gp|rm|rmvb|asf|m4a|mp3|wma)","custom":[{"url":"/Cloud/Down/AliCloud/","mimeType":"text/html","encoding":"utf-8","header":{"Referer":"https://www.zxzj.org/"}}]},
 
 "ijk":[
 {"group":"软解码","options":[
@@ -272,6 +272,8 @@
 {"category":4,"name":"mediacodec-auto-rotate","value":"1"},
 {"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},
 {"category":4,"name":"mediacodec-hevc","value":"1"},
-{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}],
+{"category":1,"name":"dns_cache_timeout","value":"600000000"}]}
+],
 
-"ads":["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn","mscs.svaeuzh.cn","cnzz.hhttm.top","tp.vinuxhome.com","cnzz.mmstat.com","www.baihuillq.com","s23.cnzz.com","z3.cnzz.com","c.cnzz.com","stj.v1vo.top","z12.cnzz.com","img.mosflower.cn","tips.gamevvip.com","ehwe.yhdtns.com","xdn.cqqc3.com","www.jixunkyy.cn","sp.chemacid.cn","hm.baidu.com","s9.cnzz.com","z6.cnzz.com","um.cavuc.com","mav.mavuz.com","wofwk.aoidf3.com","z5.cnzz.com","xc.hubeijieshikj.cn","tj.tianwenhu.com","xg.gars57.cn","k.jinxiuzhilv.com","cdn.bootcss.com","ppl.xunzhuo123.com","xomk.jiangjunmh.top","img.xunzhuo123.com","z1.cnzz.com","s13.cnzz.com","xg.huataisangao.cn","z7.cnzz.com","xg.huataisangao.cn","z2.cnzz.com","s96.cnzz.com","q11.cnzz.com","thy.dacedsfa.cn","xg.whsbpw.cn","s19.cnzz.com","z8.cnzz.com","s4.cnzz.com","f5w.as12df.top","ae01.alicdn.com","www.92424.cn","k.wudejia.com","vivovip.mmszxc.top","qiu.xixiqiu.com","cdnjs.hnfenxun.com","cms.qdwght.com","hd.youyhn.com"]}
+"ads":["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn","mscs.svaeuzh.cn","cnzz.hhttm.top","tp.vinuxhome.com","cnzz.mmstat.com","www.baihuillq.com","s23.cnzz.com","z3.cnzz.com","c.cnzz.com","stj.v1vo.top","z12.cnzz.com","img.mosflower.cn","tips.gamevvip.com","ehwe.yhdtns.com","xdn.cqqc3.com","www.jixunkyy.cn","sp.chemacid.cn","hm.baidu.com","s9.cnzz.com","z6.cnzz.com","um.cavuc.com","mav.mavuz.com","wofwk.aoidf3.com","z5.cnzz.com","xc.hubeijieshikj.cn","tj.tianwenhu.com","xg.gars57.cn","k.jinxiuzhilv.com","cdn.bootcss.com","ppl.xunzhuo123.com","xomk.jiangjunmh.top","img.xunzhuo123.com","z1.cnzz.com","s13.cnzz.com","xg.huataisangao.cn","z7.cnzz.com","xg.huataisangao.cn","z2.cnzz.com","s96.cnzz.com","q11.cnzz.com","thy.dacedsfa.cn","xg.whsbpw.cn","s19.cnzz.com","z8.cnzz.com","s4.cnzz.com","f5w.as12df.top","ae01.alicdn.com","www.92424.cn","k.wudejia.com","vivovip.mmszxc.top","qiu.xixiqiu.com","cdnjs.hnfenxun.com","cms.qdwght.com","hd.youyhn.com"]
+}
