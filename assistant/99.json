@@ -9,13 +9,12 @@ zidingyi为网页内容，
 */
 
 "Home": [
-{"key":"网页","title":"宝盒汇","pic":"https://agit.ai/guot54/ygbh/raw/branch/master/%e8%b0%83%e8%af%95%e5%8a%a9%e6%89%8b/18.jpeg"},
-{"key":"直播","title":"直播","pic":"https://agit.ai/hellocupe/test/raw/branch/master/7.png"},
-{"key":"历史","title":"历史","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/05.jpg"},
-{"key":"收藏","title":"收藏","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/06.jpg"}
+{"key":"网页","title":"宝盒汇","pic":"https://raw.githubusercontent.com/meinvtuzai/jjj/104dff477b4ec6527ca2511f57035081b1db91d0/assistant/icon2/18.jpeg"},
+{"key":"直播","title":"直播","pic":"https://raw.githubusercontent.com/meinvtuzai/jjj/104dff477b4ec6527ca2511f57035081b1db91d0/assistant/icon2/7.%E7%9B%B4%E6%92%AD.png"},
+{"key":"历史","title":"历史","pic":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/assistant/icon2/5.%E5%8E%86%E5%8F%B2.png"},
+{"key":"收藏","title":"收藏","pic":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/assistant/icon2/6.%E6%94%B6%E8%97%8F.png"}
 /*
-{"key":"推送","title":"推送","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/07.jpg"},
-{"key":"待添加","title":"待加","pic":"https://raw.iqiq.io/tianiue/MovieTV/master/tstp/08.jpg"}
+{"key":"推送","title":"推送","pic":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/assistant/icon2/12.推送.png"},
 */
 ],
 

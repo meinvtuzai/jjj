@@ -2,6 +2,7 @@
 https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json
 https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json
 https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/genJar.bat
 
 https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json
 https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/duboku.json

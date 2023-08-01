@@ -14,13 +14,14 @@
 ],
 
 "sites":[
-{"key":"lf_js_douban","name":"豆瓣|lf_douban","type":3,"searchable":0,"quickSearch":0,"filterable":1,"api":"clan://tvbox/lives/lf_douban1_min.js"},
-{"key":"lf_js_ikanbot","name":"点播|lf_ikanbot","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_ikanbot2_min.js"},
-{"key": "lf_直播点播","name": "直播点播|路飞","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/list.json"},
+{"key":"lf_js_douban","name":"豆瓣|lf_douban","type":3,"searchable":0,"quickSearch":0,"filterable":1,"api":"clan://tvbox/lives/lf_douban_min.js"},
+{"key":"lf_js_ikanbot","name":"点播|lf_ikanbot","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_ikanbot_min.js"},
 {"key":"lf_js_live","name":"直播|lf_live2vod","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_live10_min.js","ext":"clan://tvbox/lives/list.json"},
+{"key": "lf_直播点播","name": "直播点播|路飞","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/list.json"},
 
 {"key": "yeta099y","name": "咪咪4k","type": 1,"api": "http://xn--yeta099v.online:66/api.php/provide/vod","playUrl": "http://47.242.89.48/video/xiaoshu.php?action=config&app=analysis2&code=8ff57a4df664974eca05970c7dadfc8e&url=","searchable": 1,"quickSearch": 1},
 {"key": "py_yixi","name": "一席讲坛","type": 3,"api": "py_yixi","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_yixi.py"},
+{"key": "py_cctv_full","name": "央视大全","type": 3,"api": "py_cctv_full","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_cctv_full.py"},
 
 //B站
 {"key":"py_youer","name":"Py|幼儿教育","type":3,"api":"py_youer","searchable":1,"quickSearch":1,"filterable":1,"ext":"./py/幼儿教育.py"},
@@ -45,6 +46,8 @@
 {"key":"py_zgwh","name":"Py|中国文化","type":3,"api":"py_zgwh","searchable":0,"quickSearch":0,"filterable":1,"ext":"./py/中国文化.py"},
 
 //央视
+{"key": "py_cctv","name": "央视","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_cctv.py"},
+{"key": "py_cctv2","name": "央视2","type": 3,"api": "py_cctv2","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_cctv2.py"},
 {"key":"py_cctv","name":"Py|央视法治","type":3,"api":"py_cctv","searchable":1,"quickSearch":1,"filterable":1,"ext":"./py/py_cctv.json"},
 {"key":"py_cctvdy","name":"Py|央视电影电视","type":3,"api":"py_cctvdy","searchable":1,"quickSearch":1,"filterable":1,"ext":"./py/py_cctvdy.json"},
 {"key":"py_cctvjs","name":"Py|央视军事","type":3,"api":"py_cctvjs","searchable":1,"quickSearch":1,"filterable":1,"ext":"./py/py_cctvjs.json"},
@@ -70,9 +73,6 @@
 {"key": "py_bilibili","name": "哔哩","type": 3,"api": "py_bilibili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_bilibili.py"},
 {"key": "py_bilibili2","name": "哔哩2","type": 3,"api": "py_bilibili2","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_bilibili2.py"},
 {"key": "py_3qu","name": "3QU影院","type": 3,"api": "py_3qu","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_3qu.py"},
-{"key": "py_cctv","name": "央视","type": 3,"api": "py_cctv","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_cctv.py"},
-{"key": "py_cctv2","name": "央视2","type": 3,"api": "py_cctv2","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_cctv2.py"},
-{"key": "py_cctv_full","name": "央视大全","type": 3,"api": "py_cctv_full","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_cctv_full.py"},
 {"key": "py_zxzj","name": "在线之家","type": 3,"api": "py_zxzj","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./py/py_zxzj.py"},
 {"key": "py_wmkk","name": "完美看看(半残)","type": 3,"api": "py_wmkk","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./py/py_wmkk.py"},
 {"key": "py_voflix","name": "Voflix","type": 3,"api": "py_voflix","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./py/py_voflix.py"},
