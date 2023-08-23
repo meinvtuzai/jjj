@@ -14,11 +14,42 @@
 ],
 
 "sites":[
+//路飞专区
 {"key":"lf_js_douban","name":"豆瓣|lf_douban","type":3,"searchable":0,"quickSearch":0,"filterable":1,"api":"clan://tvbox/lives/lf_douban_min.js"},
-{"key":"lf_js_ikanbot","name":"点播|lf_ikanbot","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_ikanbot_min.js"},
-{"key":"lf_js_live","name":"直播|lf_live2vod","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_live10_min.js","ext":"clan://tvbox/lives/list.json"},
-{"key": "lf_直播点播","name": "直播点播|路飞","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/list.json"},
+{"key": "lf_ikanbot5","name": "爱看机器人 | lf_ikanbot","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "clan://tvbox/lives/lf_ikanbot5_2_min.js"},
+{"key":"lf_js_live","name":"直播|lf_live10","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_live10_min.js","ext":"clan://tvbox/lives/list.json"},
+{"key": "lf_直播点播","name": "直播点播|lf_live","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/list.json"},
+{"key": "lf_js_p2p","name": "磁力 | lf_p2p","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "clan://tvbox/lives/lf_p2p2_min.js","ext": "18+"},
+{"key": "lf_js_search","name": "搜索 | lf_search","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 0,"api": "clan://tvbox/lives/lf_search3_min.js"},
+{"key": "push_agent","name": "推送 | lf_push1_5","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "clan://tvbox/lives/lf_pushagent1_5_min.js"},
 
+//猫影视资源
+{"key":"泥巴","name":"猫 | 泥巴","type":3,"api":"clan://tvbox/cat/nivod_open.js","ext":"888解忧愁"},
+{"key":"duboku_open","name":"猫 | 独播库（魔法)","type":3,"api":"clan://tvbox/cat/duboku_open.js"},
+{"key":"duboku","name":"猫 | 独播库（国内)","type":3,"api":"clan://tvbox/cat/duboku2_open.js"},
+{"key":"kkys","name":"猫 | 快看影视","type":3,"api":"clan://tvbox/cat/kkys_open.js"},
+{"key":"ikanbot","name":"猫 | 爱看机器人","type":3,"api":"clan://tvbox/cat/ikanbot_open.js"},
+{"key":"wogg","name":"猫 | 玩偶","type":3,"api":"clan://tvbox/cat/wogg_open.js","ext":"d034cab947a042858477bacfd6d10e0b"},
+{"key":"czzy","name":"猫 | 厂长资源","type":3,"api":"clan://tvbox/cat/czzy_open.js"},
+{"key":"Kuqimv","name":"猫 | 酷奇MV","type":3,"api":"clan://tvbox/cat/kuqimv_open.js"},
+{"key":"cntv","name":"猫 | 视聚场","type":3,"api":"clan://tvbox/cat/cntv_open.js"},
+{"key":"dj0898","name":"猫 | 世纪DJ音乐网","type":3,"api":"clan://tvbox/cat/dj0898_open.js"},
+{"key":"tuxiaobei","name":"猫 | 兔小贝","type":3,"api":"clan://tvbox/cat/tuxiaobei_open.js"},
+{"key":"ubestkid","name":"猫 | 贝乐虎","type":3,"api":"clan://tvbox/cat/ubestkid_open.js"},
+{"key":"boosi","name":"猫 | 童趣","type":3,"api":"clan://tvbox/cat/boosj_open.js"},
+{"key":"zxzj","name":"猫 | 在线之家","type":3,"api":"clan://tvbox/cat/zxzj_open.js"},
+{"key":"sharenice","name":"猫 | 短视频","type":3,"api":"clan://tvbox/cat/sharenice_open.js"},
+{"key":"libvio","name":"猫 | libvio","type":3,"api":"clan://tvbox/cat/libvio_open.js"},
+{"key":"230ts","name":"猫 | 爱上你听书","type":3,"api":"clan://tvbox/cat/230ts_open.js"},
+{"key":"mybili","name":"猫 | 哔哩","type":3,"api":"clan://tvbox/cat/mybili_open.js"},
+{"key":"ng","name":"猫 | 南瓜","type":3,"api":"clan://tvbox/cat/ng_open.js"},
+{"key":"subaibai","name":"猫 | 素白白","type":3,"api":"clan://tvbox/cat/subaibai_open.js"},
+{"key":"kunyu77","name":"猫 | 鲲娱77【国内】","type":3,"api":"clan://tvbox/cat/kunyu77_open.js"},
+{"key":"18av_open.","name":"猫 | 18av+","type":3,"api":"clan://tvbox/cat/18a_open.js"},
+{"key":"mtsp_open.","name":"猫 | 蜜桃视频","type":3,"api":"clan://tvbox/cat/mtsp_open.js"},
+
+##PY源
+{"key":"奇奇","name":"奇奇","type":1,"api":"http://www.csykkj.club/api.php/provide/vod/from/qiqi","searchable":1,"quickSearch":1,"categories":["综艺","连续剧","电影","动漫"]},
 {"key": "yeta099y","name": "咪咪4k","type": 1,"api": "http://xn--yeta099v.online:66/api.php/provide/vod","playUrl": "http://47.242.89.48/video/xiaoshu.php?action=config&app=analysis2&code=8ff57a4df664974eca05970c7dadfc8e&url=","searchable": 1,"quickSearch": 1},
 {"key": "py_yixi","name": "一席讲坛","type": 3,"api": "py_yixi","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_yixi.py"},
 {"key": "py_cctv_full","name": "央视大全","type": 3,"api": "py_cctv_full","searchable": 0,"quickSearch": 0,"filterable": 1,"ext": "./py/py_cctv_full.py"},
@@ -109,6 +140,7 @@
 ],
 
 "rules":[
+{"name": "磁力廣告","hosts": ["magnet"],"regex": ["更多","社 區","x u u"]},
 {"name":"量子廣告","hosts":["vip.lz","hd.lz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
@@ -132,6 +164,7 @@
 {"name":"网络搜集03","type":1,"url":"https://vip.aiaine.com/api/?key=8FN8gNAySnvJiMllxZ&url=","ext":{"flag":["Itnb","wuduzy"]}},
 {"name":"网络搜集04","type":1,"url":"http://api.vip123kan.vip/?url=","ext":{"flag":["youku","优酷","mgtv","芒果","qq","腾讯","qiyi","爱奇艺","qq","xigua","奇艺"]}},
 {"name":"网络搜集07","type":1,"url":"https://vip.aiaine.com/api/?key=8FN8gNAySnvJiMllxZ&url=","ext":{"flag":["ltnb"]}},
+{"name":"奇奇","type":1,"url":"http://lgg.llwwwll.com:5477/home/api?type=ys&uid=387611&key=ahnrvxyzCDGJKPY137&url=","ext":{"flag":["qiqi","kuying-qq"]}},
 {"name":"网络搜集10","type":1,"url":"https://json.5lp.net/json.php?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","renrenmi","Itnb"]}}],
 
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","letv","tudou","pptv","mgtv","wasu","bilibili","leduo","fq3","fq4","xueren","duoduo","duoduozy","miaoparty","miaoparty2","miaoparty3","renrenmi","优酷","芒果","腾讯","爱奇艺","奇艺","ltnb","rx","CL4K","xfyun","wuduzy"],

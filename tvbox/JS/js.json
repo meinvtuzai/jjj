@@ -11,21 +11,48 @@
 ],
 
 "sites":[
+//路飞专区
 {"key":"lf_js_douban","name":"豆瓣|lf_douban","type":3,"searchable":0,"quickSearch":0,"filterable":1,"api":"clan://tvbox/lives/lf_douban_min.js"},
-{"key":"lf_js_ikanbot","name":"点播|lf_ikanbot","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_ikanbot_min.js"},
-{"key":"lf_js_live","name":"直播|lf_live2vod","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_live10_min.js","ext":"clan://tvbox/lives/list.json"},
-{"key": "lf_直播点播","name": "直播点播|路飞","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/list.json"},
+{"key": "lf_ikanbot5","name": "爱看机器人 | lf_ikanbot","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "clan://tvbox/lives/lf_ikanbot5_2_min.js"},
+{"key":"lf_js_live","name":"直播|lf_live10","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_live10_min.js","ext":"clan://tvbox/lives/list.json"},
+{"key": "lf_直播点播","name": "直播点播|lf_live","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/list.json"},
+{"key": "lf_js_p2p","name": "磁力 | lf_p2p","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "clan://tvbox/lives/lf_p2p2_min.js","ext": "18+"},
+{"key": "lf_js_search","name": "搜索 | lf_search","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 0,"api": "clan://tvbox/lives/lf_search3_min.js"},
+{"key": "push_agent","name": "推送 | lf_push1_5","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "clan://tvbox/lives/lf_pushagent1_5_min.js"},
 
+//猫影视资源
+{"key":"泥巴","name":"猫 | 泥巴","type":3,"api":"clan://tvbox/cat/nivod_open.js","ext":"888解忧愁"},
+{"key":"duboku_open","name":"猫 | 独播库（魔法)","type":3,"api":"clan://tvbox/cat/duboku_open.js"},
+{"key":"duboku","name":"猫 | 独播库（国内)","type":3,"api":"clan://tvbox/cat/duboku2_open.js"},
+{"key":"kkys","name":"猫 | 快看影视","type":3,"api":"clan://tvbox/cat/kkys_open.js"},
+{"key":"ikanbot","name":"猫 | 爱看机器人","type":3,"api":"clan://tvbox/cat/ikanbot_open.js"},
+{"key":"wogg","name":"猫 | 玩偶","type":3,"api":"clan://tvbox/cat/wogg_open.js","ext":"d034cab947a042858477bacfd6d10e0b"},
+{"key":"czzy","name":"猫 | 厂长资源","type":3,"api":"clan://tvbox/cat/czzy_open.js"},
+{"key":"Kuqimv","name":"猫 | 酷奇MV","type":3,"api":"clan://tvbox/cat/kuqimv_open.js"},
+{"key":"cntv","name":"猫 | 视聚场","type":3,"api":"clan://tvbox/cat/cntv_open.js"},
+{"key":"dj0898","name":"猫 | 世纪DJ音乐网","type":3,"api":"clan://tvbox/cat/dj0898_open.js"},
+{"key":"tuxiaobei","name":"猫 | 兔小贝","type":3,"api":"clan://tvbox/cat/tuxiaobei_open.js"},
+{"key":"ubestkid","name":"猫 | 贝乐虎","type":3,"api":"clan://tvbox/cat/ubestkid_open.js"},
+{"key":"boosi","name":"猫 | 童趣","type":3,"api":"clan://tvbox/cat/boosj_open.js"},
+{"key":"zxzj","name":"猫 | 在线之家","type":3,"api":"clan://tvbox/cat/zxzj_open.js"},
+{"key":"sharenice","name":"猫 | 短视频","type":3,"api":"clan://tvbox/cat/sharenice_open.js"},
+{"key":"libvio","name":"猫 | libvio","type":3,"api":"clan://tvbox/cat/libvio_open.js"},
+{"key":"230ts","name":"猫 | 爱上你听书","type":3,"api":"clan://tvbox/cat/230ts_open.js"},
+{"key":"mybili","name":"猫 | 哔哩","type":3,"api":"clan://tvbox/cat/mybili_open.js"},
+{"key":"ng","name":"猫 | 南瓜","type":3,"api":"clan://tvbox/cat/ng_open.js"},
+{"key":"subaibai","name":"猫 | 素白白","type":3,"api":"clan://tvbox/cat/subaibai_open.js"},
+{"key":"kunyu77","name":"猫 | 鲲娱77【国内】","type":3,"api":"clan://tvbox/cat/kunyu77_open.js"},
+{"key":"18av_open.","name":"猫 | 18av+","type":3,"api":"clan://tvbox/cat/18a_open.js"},
+{"key":"mtsp_open.","name":"猫 | 蜜桃视频","type":3,"api":"clan://tvbox/cat/mtsp_open.js"},
+
+//道长源
 {"key":"哔哩","name":"哔哩[影视专用]","type":3,"api":"csp_Bili","ext":{"type":"抖音热歌#电影解说#沙雕动漫#经典无损音乐合集#索尼音乐中国#帕梅拉#太极拳#广场舞#演唱会","cookie":""}},
 {"key":"drpy_js_我的哔哩","name":"我的哔哩[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/我的哔哩.js"},
 {"key":"drpy_js_荐片","name":"影视 | 荐片[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/荐片.js","playerType":"1"},
 {"key":"好趣网","name":"电视 | 好趣网[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/好趣网.js"},
 {"key":"道长直播2点播","name":"电视 | 直播[js]","type":3,"api":"./lib/live2cms.js","ext":"./lib/live2mv_data.json"},
-//{"key":"路飞直播2点播","name":"电视 | 路飞[js]","type":3,"api":"./lib/lf_live_min.js","ext":"./lib/lf_live.json"},
 {"key":"MV_vod","name":"电视┃MTV","type":1,"api":"https://tvbox-mv--leosam2048.repl.co/mv/vod"},
-{"key":"drpy_js_ikanbot2","name":"聚搜 | 爱看机器人[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/ikanbot2.js"},
 {"key":"drpy_js_豆瓣","name":"搜索 | 豆瓣[js]","type":3,"api":"./lib/drpy2.min.js","ext":"./js/drpy.js"},
-{"key":"drpy_js_lf_ikanbot","name":"影视 | lf_ikanbot[js]","type":3,"api":"./js/lf_ikanbot2_4_min.js"},
 {"key":"drpy_js_Alist","name":"网盘 | Alist[js]","type":3,"api":"./lib/alist.min.js","ext":"./js/alist.json"},
 
 {"key":"drpy_xb","name":"🛫小宝影视(墙外)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/[飞]小宝影院.js"},
@@ -259,6 +286,7 @@
 ],
 
 "rules":[
+{"name": "磁力廣告","hosts": ["magnet"],"regex": ["更多","社 區","x u u"]},
 {"name":"星星","hosts":["aws.ulivetv.net"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name": "量子廣告","hosts": ["vip.lz","hd.lz"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
 {"name": "非凡廣告","hosts": ["vip.ffzy","hd.ffzy"],"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
