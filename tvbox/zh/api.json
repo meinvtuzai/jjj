@@ -1,5 +1,5 @@
 {
-"spider":"./jar/custom_spider.jar",
+"spider":"./custom_spider.jar",
 "wallpaper":"http://maoyingshi.cc/api.php",
 "lives": [
 {"name":"测试","type":0,"url":"clan://tvbox/lives/test.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
@@ -9,41 +9,6 @@
 ],
 
 "sites":[
-//路飞专区
-{"key":"lf_js_douban","name":"豆瓣|lf_douban","type":3,"searchable":0,"quickSearch":0,"filterable":1,"api":"clan://tvbox/lives/lf_douban_min.js"},
-{"key": "lf_ikanbot5","name": "爱看机器人 | lf_ikanbot","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "clan://tvbox/lives/lf_ikanbot5_2_min.js"},
-{"key":"lf_js_live","name":"直播|lf_live10","type":3,"searchable":1,"quickSearch":1,"filterable":1,"api":"clan://tvbox/lives/lf_live10_min.js","ext":"clan://tvbox/lives/list.json"},
-{"key": "lf_直播点播","name": "直播点播|lf_live","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/list.json"},
-{"key": "lf_js_p2p","name": "磁力 | lf_p2p","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"api": "clan://tvbox/lives/lf_p2p2_min.js","ext": "18+"},
-{"key": "lf_js_search","name": "搜索 | lf_search","type": 3,"searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 0,"api": "clan://tvbox/lives/lf_search3_min.js"},
-{"key": "push_agent","name": "推送 | lf_push1_5","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "clan://tvbox/lives/lf_pushagent1_5_min.js"},
-{"key": "lf_18直播","name": "18直播","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/avlist.json"},
-
-//猫影视资源
-{"key":"泥巴","name":"猫 | 泥巴","type":3,"api":"clan://tvbox/cat/nivod_open.js","ext":"888解忧愁"},
-{"key":"duboku_open","name":"猫 | 独播库（魔法)","type":3,"api":"clan://tvbox/cat/duboku_open.js"},
-{"key":"duboku","name":"猫 | 独播库（国内)","type":3,"api":"clan://tvbox/cat/duboku2_open.js"},
-{"key":"kkys","name":"猫 | 快看影视","type":3,"api":"clan://tvbox/cat/kkys_open.js"},
-{"key":"ikanbot","name":"猫 | 爱看机器人","type":3,"api":"clan://tvbox/cat/ikanbot_open.js"},
-{"key":"wogg","name":"猫 | 玩偶","type":3,"api":"clan://tvbox/cat/wogg_open.js","ext":"d034cab947a042858477bacfd6d10e0b"},
-{"key":"czzy","name":"猫 | 厂长资源","type":3,"api":"clan://tvbox/cat/czzy_open.js"},
-{"key":"Kuqimv","name":"猫 | 酷奇MV","type":3,"api":"clan://tvbox/cat/kuqimv_open.js"},
-{"key":"cntv","name":"猫 | 视聚场","type":3,"api":"clan://tvbox/cat/cntv_open.js"},
-{"key":"dj0898","name":"猫 | 世纪DJ音乐网","type":3,"api":"clan://tvbox/cat/dj0898_open.js"},
-{"key":"tuxiaobei","name":"猫 | 兔小贝","type":3,"api":"clan://tvbox/cat/tuxiaobei_open.js"},
-{"key":"ubestkid","name":"猫 | 贝乐虎","type":3,"api":"clan://tvbox/cat/ubestkid_open.js"},
-{"key":"boosi","name":"猫 | 童趣","type":3,"api":"clan://tvbox/cat/boosj_open.js"},
-{"key":"zxzj","name":"猫 | 在线之家","type":3,"api":"clan://tvbox/cat/zxzj_open.js"},
-{"key":"sharenice","name":"猫 | 短视频","type":3,"api":"clan://tvbox/cat/sharenice_open.js"},
-{"key":"libvio","name":"猫 | libvio","type":3,"api":"clan://tvbox/cat/libvio_open.js"},
-{"key":"230ts","name":"猫 | 爱上你听书","type":3,"api":"clan://tvbox/cat/230ts_open.js"},
-{"key":"mybili","name":"猫 | 哔哩","type":3,"api":"clan://tvbox/cat/mybili_open.js"},
-{"key":"ng","name":"猫 | 南瓜","type":3,"api":"clan://tvbox/cat/ng_open.js"},
-{"key":"subaibai","name":"猫 | 素白白","type":3,"api":"clan://tvbox/cat/subaibai_open.js"},
-{"key":"kunyu77","name":"猫 | 鲲娱77【国内】","type":3,"api":"clan://tvbox/cat/kunyu77_open.js"},
-{"key":"18av_open.","name":"猫 | 18av+","type":3,"api":"clan://tvbox/cat/18a_open.js"},
-{"key":"mtsp_open.","name":"猫 | 蜜桃视频","type":3,"api":"clan://tvbox/cat/mtsp_open.js"},
-
 //蜂蜜源
 {"key":"AList","name":"AList","type":3,"api":"csp_AList","searchable":1,"changeable":0,"ext":{"drives":[{"name":"SOD","server":"https://a.sodaz.xyz"}]}},
 {"key":"泥巴","name":"泥巴","type":3,"api":"csp_NiNi","searchable":1,"ext":"1"},
@@ -51,6 +16,7 @@
 {"key":"非凡","name":"非凡","type":0,"api":"http://cj.ffzyapi.com/api.php/provide/vod/at/xml/","searchable":1,"changeable":1,"categories":["伦理片"]},
 {"key":"玩偶","name":"玩偶","type":3,"api":"csp_Doll","searchable":1,"style":{"type":"rect","ratio":1.309}},
 {"key":"18AV","name":"18AV","type":3,"api":"csp_Eighteen","searchable":1,"style":{"type":"rect","ratio":1.485}},
+{"key":"18A貓","name":"18A貓","type":3,"api":"clan://tvbox/fm/js/18a_open.js","searchable":1,"style":{"type":"rect","ratio":1.485}},
 {"key":"Jable","name":"Jable","type":3,"api":"csp_Jable","searchable":1,"style":{"type":"rect","ratio":1.77}},
 {"key":"MissAV","name":"MissAV","type":3,"api":"csp_Miss","searchable":1,"style":{"type":"rect","ratio":1.777}},
 {"key":"Hanime","name":"Hanime","type":3,"api":"csp_Hanime","searchable":1,"style":{"type":"rect","ratio":0.68}},
@@ -107,7 +73,11 @@
 {"key":"jgczyapi.com","name":"成人51","type":0,"api":"https://jgczyapi.com/home/cjapi/kld2/mc10/vod/xml","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33}},
 {"key":"api.apilyzy.com","name":"成人52","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33}},
 
-####Yoursmile.jar
+//路飞专区
+{"key": "push_agent","name": "推送 | lf_push1_5","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "clan://tvbox/lives/lf_pushagent1_5_min.js"},
+{"key": "lf_18直播","name": "18直播","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/avlist.json"},
+
+##Yoursmile.jar
 {"key":"csp_Miss","name":"MissAV翻墙〔SP〕","type":3,"api":"csp_Miss","searchable":1,"quickSearch":1,"filterable":1,"jar":"./jar/Yoursmile.jar"},
 {"key":"csp_xBPQ_香蕉视频","name":"香蕉视频","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/香蕉视频.json","jar":"./jar/Yoursmile.jar"},
 {"key":"csp_xBPQ_右手影院","name":"右手影院","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/右手影院.json","jar":"./jar/Yoursmile.jar"},
@@ -151,7 +121,7 @@
 {"key":"drpy_js_banan","name":"banan[DRPY18]","type":3,"api":"./js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/banan.js"},
 {"key":"drpy_js_18av","name":"18av[DRPY18]","type":3,"api":"./js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/18av.js"},
 
-#18.jar;md5;f059f9bdb390a1926754e6034cb664f2
+##18.jar;md5;f059f9bdb390a1926754e6034cb664f2
 {"key":"精工厂","name":"*🔞精工厂","type":0,"api":"https://jgczyapi.com/home/cjapi/kld2/mc/vod/xml","searchable":0,"quickSearch":0,"filterable":0,"jar":"./jar/18.jar"},
 {"key":"美少女","name":"*🔞美少女","type":0,"api":"https://www.msnii.com/api/xml.php","searchable":0,"quickSearch":0,"filterable":1,"jar":"./jar/18.jar"},
 {"key":"哥哥妹妹","name":"*🔞有哥妹","type":0,"api":"http://www.ggmmzy.com:9999/inc/xml","searchable":0,"quickSearch":0,"filterable":0,"jar":"./jar/18.jar"},
@@ -166,6 +136,7 @@
 {"key":"csp_xBPQ_色花堂","name":"色花堂","type":3,"api":"csp_xBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./XBPQ/色花堂.json","jar":"./jar/XBPQ_0111.jar"},
 
 //采集站
+{"key": "LJ","name": "🚠┃辣椒","type": 1,"api": "https://apilj.com/api.php/provide/vod/at/json/","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"categories": ["国产自拍","欧美精品","日韩无码","中文字幕","动漫精品","极品萝莉","人妖视频","三级自慰","强奸乱伦","辣椒GIGA","HEYZO","独家DMM","HEY诱惑","童颜巨乳","高潮喷吹","激情口交","绝色少女","首次亮相","AV明星1"]},
 {"key":"*AIvin","name":"*🔞AIvin","type":0,"api":"http://lbapiby.com/api.php/provide/vod/at/xml"},
 {"key":"*皇冠资源","name":"*🔞皇冠资源","type":1,"api":"https://hghhh.com/api.php/provide/vod/","searchable":0,"quickSearch":0},
 {"key":"*色猫资源","name":"*🔞色猫资源","type":1,"api":"https://api.maozyapi.com/inc/apijson_vod.php","searchable":0,"quickSearch":0},
@@ -215,21 +186,14 @@
 ],
 
 "rules":[
-{"name": "磁力廣告","hosts": ["magnet"],"regex": ["更多","社 區","x u u"]},
-{"name":"量子廣告","hosts":["vip.lz","hd.lz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-{"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name": "磁力廣告","hosts": [ "magnet"],"regex": [ "更多","社 區","x u u","最 新","最新","直 播","更 新","社 区","有趣","有 趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
+{"name":"海外看","hosts":["haiwaikan"],"regex":["8.1748","10.0099","10.3333","16.0599"]},
+{"name":"暴風","hosts":["bfzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"name":"星星","hosts":["aws.ulivetv.net"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"name":"量子","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
-{"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]},
-{"name":"海外看廣告","hosts":["haiwaikan.com"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175833,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9.175832,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
-{"host":"www.djuu.com","rule":["mp4.djuu.com","m4a"]},
-{"host":"www.sharenice.net","rule":["huoshan.com","/item/video/"],"filter":[]},
-{"host":"www.sharenice.net","rule":["sovv.qianpailive.com","vid="],"filter":[]},
-{"host":"www.sharenice.net","rule":["douyin.com","/play/"]},
-{"host":"m.ysxs8.vip","rule":["ysting.ysxs8.vip:81","xmcdn.com"],"filter":[]},
-{"host":"hdmoli.com","rule":[".m3u8"]},{"host":"https://api.live.bilibili.com","rule":["bilivideo.com","/index.m3u8"],"filter":["data.bilibili.com/log/web","i0.hdslb.com/bfs/live/"]},
-{"host":"www.agemys.cc","rule":["cdn-tos","obj/tos-cn"]},
-{"host":"www.fun4k.com","rule":["https://hd.ijycnd.com/play","index.m3u8"]},
-{"host":"zjmiao.com","rule":["play.videomiao.vip/API.php","time=","key=","path="]}
+{"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]}
 ],
 
 "parses":[
