@@ -1,5 +1,22 @@
 clan://localhost/tvbox/本地仓.txt
+
+************************************
 clan://localhost/tvbox/网络仓.txt
+{"urls":[
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/fm/config.json","name":"<1>蜂蜜"},
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/fty/api.json","name":"<2>饭太硬"},
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/js/js.json","name":"<3>JS"},
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/PY/api.json","name":"<4>PY"},
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/xyq/api.json","name":"<5>香雅情"},
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/zh/api.json","name":"<6>张宏"}
+
+]}
 
 *********************************
 影视相关：

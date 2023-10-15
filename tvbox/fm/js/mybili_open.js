@@ -5,7 +5,7 @@ let siteKey = '';
 let siteType = 0;
 const PC_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.361";
 // let cookie = "DedeUserID=690781341;DedeUserID__ckMd5=cabc96906269c5b6;SESSDATA=2245ba24%2C1684212125%2C466fd%2Ab2;bili_jct=de6fdb60c10f8a83910aa55d79407b4e;"; // 可更换成自己的cookie
-let cookie = "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/cookie.txt"; // 可更换成自己的cookie
+let cookie = "b_nut=1660244823; buvid3=B63BF93B-67EE-410A-631C-054F0329CB7422986infoc; i-wanna-go-back=-1; DedeUserID=335281100; DedeUserID__ckMd5=93cb3fe66d606da5; buvid_fp=a6c8973fa1d12f7512b9dedcf87316f1; CURRENT_FNVAL=4048; rpdid=|(J|lmRk)Rm|0J'uY~uklJ)Jk; header_theme_version=CLOSE; LIVE_BUVID=AUTO1716793719312114; FEED_LIVE_VERSION=V8; buvid4=1E9B44AF-065D-0536-17DD-9E471DCF99C022986-022081203-NYTM3DGpvTOrMV/fM6STkQ==; innersign=0; b_lsid=9DF5AB25_18AFE4ACC0D; _uuid=41F4A991-910F2-83E2-C53F-B9377A2B8F5C29399infoc; SESSDATA=de15a4b4,1712035435,700e7*a1CjC8g0jp8ebqjjwS0bvMdi5jBGQP1cvJJIC0ZzDnHrLS6DPSmHQkEe1sK3OQ-uNxRcASVnFvMU01MFhVai1GYTdwWGdJQnl5UjA5Ti1JQWhwMWtxZEdZOFVvTVNuMnlzMzd6WXJsS3V3amVHS2w3SUl6Yk5FTU4xN1NjV19IbHp6cktqQVh4QzhRIIEC; bili_jct=e571a7e15c3ce843b8ad3e12549cb59c; sid=8cu8qs3c; browser_resolution=1280-577; home_feed_column=4; bp_video_offset_335281100=847073743843885073; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2OTY3NDI5NzMsImlhdCI6MTY5NjQ4MzcxMywicGx0IjotMX0.9QMieWxGNQkMHjFtcvfUVhxQml9EA9KSbrcol-MAhVY; bili_ticket_expires=1696742913"; // 可更换成自己的cookie
 
 async function request(reqUrl) {
   const res = await req(reqUrl, {

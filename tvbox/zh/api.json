@@ -74,7 +74,7 @@
 {"key":"api.apilyzy.com","name":"成人52","type":1,"api":"https://api.apilyzy.com/api.php/provide/vod/","searchable":1,"recordable":0,"style":{"type":"rect","ratio":1.33}},
 
 //路飞专区
-{"key": "push_agent","name": "推送 | lf_push1_5","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "clan://tvbox/lives/lf_pushagent1_5_min.js"},
+{"key": "push_agent","name": "推送 | lf_push1_5","type": 3,"searchable": 0,"changeable": 1,"quickSearch": 0,"filterable": 0,"api": "clan://tvbox/lives/lf_pushagent1_5_min.js","ext": "./token.txt"},
 {"key": "lf_18直播","name": "18直播","type": 3,"api": "clan://tvbox/lives/lf_live_min.js","ext":"clan://tvbox/lives/avlist.json"},
 
 ##Yoursmile.jar
@@ -120,6 +120,7 @@
 {"key":"drpy_js_黄瓜TV","name":"黄瓜TV[DRPY18]","type":3,"api":"./js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/黄瓜TV.js"},
 {"key":"drpy_js_banan","name":"banan[DRPY18]","type":3,"api":"./js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/banan.js"},
 {"key":"drpy_js_18av","name":"18av[DRPY18]","type":3,"api":"./js/drpy.min.js","searchable":1,"quickSearch":1,"filterable":1,"ext":"./js/18av.js"},
+{"key": "鸡吧接口","name": "鸡吧🐔","searchable": 1,"quickSearch": 1,"filterable": 1,"type": 3,"style":{ "type":"rect", "ratio":0.8 },"api": "./js/jb.js"},
 
 ##18.jar;md5;f059f9bdb390a1926754e6034cb664f2
 {"key":"精工厂","name":"*🔞精工厂","type":0,"api":"https://jgczyapi.com/home/cjapi/kld2/mc/vod/xml","searchable":0,"quickSearch":0,"filterable":0,"jar":"./jar/18.jar"},
@@ -127,7 +128,6 @@
 {"key":"哥哥妹妹","name":"*🔞有哥妹","type":0,"api":"http://www.ggmmzy.com:9999/inc/xml","searchable":0,"quickSearch":0,"filterable":0,"jar":"./jar/18.jar"},
 {"key":"*CK资源","name":"*🔞纯在线","type":1,"api":"http://www.feifei67.com/api.php/provide/vod/","searchable":0,"quickSearch":0,"filterable":0,"jar":"./jar/18.jar"},
 {"key":"*博天堂","name":"*🔞博天堂","type":0,"api":"http://bttcj.com/inc/sapi.php","searchable":0,"quickSearch":0,"filterable":0,"jar":"./jar/18.jar"},
-
 {"key":"csp_hsck","name":"🔞黄仓库〔SP〕","api":"csp_Hsck","type":3,"filterable":1,"quickSearch":1,"searchable":1,"ext":"https://www.javsee.men/","jar":"./jar/18.jar"},
 
 ##XBPQ_0111.jar;md5;1f9586602091cf80bb7f217416ece2b7
@@ -186,6 +186,8 @@
 ],
 
 "rules":[
+{"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
+{"name":"農民","hosts":[   "toutiaovod.com"],"regex":[   "video/tos/cn"]},
 {"name": "磁力廣告","hosts": [ "magnet"],"regex": [ "更多","社 區","x u u","最 新","最新","直 播","更 新","社 区","有趣","有 趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
 {"name":"海外看","hosts":["haiwaikan"],"regex":["8.1748","10.0099","10.3333","16.0599"]},
 {"name":"暴風","hosts":["bfzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
