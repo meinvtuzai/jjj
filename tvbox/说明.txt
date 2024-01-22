@@ -1,0 +1,151 @@
+内置仓库：
+assets://tvbox/内置.txt
+本地仓库：
+file://tvbox/本地.txt
+
+************************************
+猫影视说明：
+推荐：assets://js1/config_open.json
+自用：assets://js2/config_open.json
+次推：assets://js3/config_open.json
+源少：assets://js4/config_open.json
+混合：assets://js5/config_open.json
+多多：assets://js6/config_open.json
+乐享汇：assets://js7/config_open.json
+
+9+9：
+assets://js2/config_open2.json
+assets://js3/config_open2.json
+assets://js7/config_open2.json
+************************************
+蜂蜜源B站：./json/bili.json，cookie.txt文件
+蜂蜜源阿里：玩偶和找资源，token.txt文件
+
+路飞源阿里：推送 | lf_push，token.txt文件
+
+道长JS B站：我的哔哩[js]，需在"我的哔哩.js"修改cookie
+
+PY源 B站共21个文件，在PY源B站下，需要在每个文件里修改cookie，可以试试是否可以直接引用cookie.txt
+
+饭太硬源B站：🅱哔哔┃合集和🅱哔哔┃歌曲，需要在./lib/bilibili.json和./lib/biliych.json中修改cookie
+饭太硬阿里：玩偶哥哥和6搜索+1推送文件引用token.txt文件
+
+香雅情源阿里：5搜索+1推送文件引用token.txt文件
+************************************
+蜂蜜源更新地址：
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/adult.json
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/config.json
+https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/market.json
+
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json
+
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/bili.json
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/wogg.json
+
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/genJar.bat
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/duboku.json
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/notice.json
+https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/webdav.json
+
+猫源
+https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bulei_open.js
+https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/czzy_open.js
+https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/kkys_open.js
+https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/bili_open.js
+https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/555dy_open.js
+https://raw.githubusercontent.com/FongMi/CatVodOpen/main/open/18a_open.js
+************************************
+clan://localhost/tvbox/网络仓.txt
+
+{"urls":[
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/fm/config.json","name":"<1>蜂蜜"},
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/fty/api.json","name":"<2>饭太硬"},
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/js/js.json","name":"<3>JS"},
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/PY/api.json","name":"<4>PY"},
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/xyq/api.json","name":"<5>香雅情"},
+
+{"url":"https://raw.githubusercontent.com/meinvtuzai/jjj/master/tvbox/zh/api.json","name":"<6>张宏"}
+
+]}
+
+*********************************
+影视相关：
+手机测试版本：https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/mobile-python-arm64_v8a.apk
+电视测试版本：https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/release/leanback-python-armeabi_v7a.apk
+
+手机正式版本：https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/mobile/mobile-python-arm64_v8a.apk
+电视正式版本：https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-python-armeabi_v7a.apk
+Android 4.1正式版本：https://gh-proxy.com/https://github.com/FongMi/TV/releases/download/leanback/leanback-4.1.apk
+
+正式版地址：https://github.com/FongMi/TV/tree/release/release
+测试版地址：https://github.com/FongMi/TV/tree/dev/release
+
+点播栏位：
+searchable：搜索    (0：關閉、1：啟用)  
+changeable：換源    (0：關閉、1：啟用)
+playerType：播放器  (1：IJK、2：EXO)
+
+直播栏位：
+ua：用戶代理
+referer：參照位址
+epg：節目網址
+logo：台標網址
+pass：是否免密碼
+boot：是否自動開啟
+playerType：播放器
+
+配置范例：
+点播-线上
+https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/other/sample/vod/online.json
+点播-本地
+https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/other/sample/vod/offline.json
+直播-线上
+https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/other/sample/live/online.json
+直播-本地
+https://gh-proxy.com/https://github.com/FongMi/TV/blob/dev/other/sample/live/offline.json
+
+
+飞机群
+讨论群发：https://t.me/fongmi_offical
+频道：https://t.me/fongmi_release
+
+*********************************
+加密接口解密:
+https://api.ys66.repl.co?url=+加密地址
+
+*********************************
+//正常多线路
+{"urls":[
+
+{"url":"http://饭太硬.top/tv","name":"线路1（饭太硬）"},
+
+{"url":"http://肥猫.live","name":"线路2（肥猫）"},
+
+{"url":"https://fm.t4tv.hz.cz/json/config.json","name":"线路3（蜂蜜）"},
+
+{"url":"https://mirror.ghproxy.com/https://raw.githubusercontent.com/okcaptain/okjar/rm/ok.json","name":"线路4（OK佬）"},
+
+{"url":"https://dxawi.github.io/0/0.json","name":"线路5（骚零）"}
+
+]}
+
+//大人多线路
+{"urls": [		
+
+{"url": "https://agit.ai/376242575/zzh/raw/branch/master/A.txt ","name": "🌈私人影院"},
+{"url": "https://agit.ai/hu/hcr/raw/branch/master/1012.txt","name": "🌹花花世界"},
+{"url": "http://52bsj.vip:81/api/v3/file/get/68420/fl%E6%8E%A5%E5%8F%A3.txt?sign=yowqWMosWpA9ssTwrUNhZKsf_HE8J_RY2mOnY3YBGEw%3D%3A0","name": "😍鲁班带飞"},
+{"url": "http://52bsj.vip:81/api/v3/file/get/68422/%E9%A3%9E%E6%9C%BA3%20.txt?sign=XOk1BCFag1pL-xqE9sBExIcApSt_qGrVo7DLlV-FMDk%3D%3A0","name": "😍元芳带飞"},
+{"url": "https://codeberg.org/caic/a/raw/branch/main/不正经.json","name": "😍吕布带飞"},
+{"url": "https://0a.fit/voWPV","name": "😍典韦带飞"},
+{"url": "http://52bsj.vip:81/api/v3/file/get/68421/%E9%A3%9E%E6%9C%BA2.txt?sign=5QKm8I2Ovt10UywCyZcGXY7S9LN32e4OR_3wBw0jBJk%3D%3A0","name": "😍辅助带飞"},
+{"url": "http://52bsj.vip:81/api/v3/file/get/65805/%E4%BA%BA%E4%BA%BA%E9%A3%9E%E6%9C%BA.txt?sign=NsiWQIsvkHQukAmfGvrz1NbVDw2YY1-axLDdKW6i_1g%3D%3A0","name": "😍打野带飞"}
+    
+]}

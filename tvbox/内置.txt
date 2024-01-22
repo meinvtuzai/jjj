@@ -1,0 +1,11 @@
+{"urls":[
+
+{"url":"./config.json","name":"<1>蜂蜜[内]"},
+
+{"url":"./ftyxyq.json","name":"<2>饭香[内]"},
+
+{"url":"./3/jsm.json","name":"<3>PG[内]"},
+
+{"url":"./zh.json","name":"<4>张宏[内]"}
+
+]}

@@ -1,0 +1,11 @@
+{"urls":[
+
+{"url":"file://tvbox/config.json","name":"<1>蜂蜜[本]"},
+
+{"url":"file://tvbox/ftyxyq.json","name":"<2>饭香[本]"},
+
+{"url":"file://tvbox/3/jsm.json","name":"<3>PG[本]"},
+
+{"url":"file://tvbox/zh.json","name":"<4>张宏[本]"}
+
+]}
