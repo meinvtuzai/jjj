@@ -3,7 +3,7 @@ assets://tvbox/内置.txt
 本地仓库：
 file://tvbox/本地.txt
 
-************************************
+=========================================
 猫影视说明：
 推荐：assets://js1/config_open.json
 自用：assets://js2/config_open.json

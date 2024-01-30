@@ -4,22 +4,10 @@
 "spider":"./1/custom_spider.jar",
 "wallpaper":"http://maoyingshi.cc/api.php",
 "lives": [
-{"name": "黄渤1","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=1","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "黄渤2","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=2","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "黄渤3","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=3","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "黄渤4","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=4","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "黄渤5","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=5","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "黄渤6","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=6","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "黄渤7","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=7","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "黄渤8","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=8","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "黄渤9","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=9","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "黄渤10","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=10","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name": "黄渤11","type": 0,"url": "http://aspnik88.110.120.119.yoonee.net/yellowbo.php?t=11","epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-
+{"name":"av直播","type":0,"url":"./lives/av4.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"av1","type":0,"url":"./lives/av1.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
 {"name":"av2","type":0,"url":"./lives/av2.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"av3","type":0,"url":"./lives/av3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"},
-{"name":"av4","type":0,"url":"./lives/av4.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
+{"name":"av3","type":0,"url":"./lives/av3.txt","epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}
 ],
 
 "sites":[
@@ -153,6 +141,8 @@
 {"name":"量子","hosts":["vip.lz","hd.lz","v.cdnlz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"非凡","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
 {"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
+//{"name":"索尼","hosts":["suonizy"],"regex":["15.1666","15.2666"]},
+{"name": "索尼","hosts": ["suonizy"],"regex": ["16.33","15.26"]},
 {"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]}
 ],
 
